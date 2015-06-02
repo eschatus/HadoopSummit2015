@@ -2,7 +2,7 @@
   "id": 39,
   "owner": "admin",
   "permissionOfOthers": {
-    "executable": false,
+    "executable": true,
     "readable": true,
     "writable": true
   },
