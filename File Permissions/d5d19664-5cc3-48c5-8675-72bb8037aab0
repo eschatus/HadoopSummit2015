@@ -1,0 +1,11 @@
+{
+  "id": 39,
+  "owner": "admin",
+  "permissionOfOthers": {
+    "executable": false,
+    "readable": true,
+    "writable": false
+  },
+  "shared": false,
+  "groupPermissions": []
+}
