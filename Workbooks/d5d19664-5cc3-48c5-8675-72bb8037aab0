@@ -29,13 +29,6 @@
           "type": "CONSTANT"
         },
         {
-          "column": "status",
-          "filterExpression": "EQUALS",
-          "value": "200",
-          "valueStatic": true,
-          "type": "CONSTANT"
-        },
-        {
           "column": "remoteUser",
           "filterExpression": "NOT_BLANK",
           "value": "null",
