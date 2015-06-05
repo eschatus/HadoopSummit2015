@@ -1,0 +1,9 @@
+{
+  "id": 27,
+  "owner": "admin",
+  "permissionOfOthers": {
+    "readable": true,
+    "writable": false
+  },
+  "groupPermissions": []
+}
