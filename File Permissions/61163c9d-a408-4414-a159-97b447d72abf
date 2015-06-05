@@ -6,6 +6,6 @@
     "readable": true,
     "writable": false
   },
-  "shared": false,
+  "shared": true,
   "groupPermissions": []
 }
