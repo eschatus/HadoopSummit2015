@@ -12,7 +12,7 @@
       "id": 1,
       "name": "Business user",
       "flags": {
-        "executable": false,
+        "executable": true,
         "readable": true,
         "writable": true
       }
