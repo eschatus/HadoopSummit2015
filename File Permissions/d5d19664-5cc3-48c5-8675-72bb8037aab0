@@ -3,7 +3,7 @@
   "owner": "admin",
   "permissionOfOthers": {
     "executable": false,
-    "readable": true,
+    "readable": false,
     "writable": false
   },
   "shared": false,
