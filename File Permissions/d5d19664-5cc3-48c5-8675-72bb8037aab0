@@ -4,7 +4,7 @@
   "permissionOfOthers": {
     "executable": false,
     "readable": true,
-    "writable": true
+    "writable": false
   },
   "shared": false,
   "groupPermissions": [
