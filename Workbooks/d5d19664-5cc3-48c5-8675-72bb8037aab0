@@ -1,7 +1,7 @@
 {
   "file": {
     "uuid": "d5d19664-5cc3-48c5-8675-72bb8037aab0",
-    "path": "/Users/admin/Applications/Tutorial Click Path/Clickstream Analysis.wbk",
+    "path": "/Tutorial Click Path/Clickstream Analysis.wbk",
     "description": "",
     "name": "Clickstream Analysis"
   },
@@ -34,10 +34,17 @@
           "value": "null",
           "valueStatic": true,
           "type": "CONSTANT"
+        },
+        {
+          "column": "status",
+          "filterExpression": "EQUALS",
+          "value": "200",
+          "valueStatic": true,
+          "type": "CONSTANT"
         }
       ],
       "datasource": {
-        "path": "/Users/admin/Applications/Tutorial Click Path/Clickstream Data.upl",
+        "path": "/Tutorial Click Path/Clickstream Data.upl",
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
       },
       "columnStyles": [
@@ -310,7 +317,7 @@
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
       "datasource": {
-        "path": "/Users/admin/Applications/Tutorial Click Path/Customer Profile.upl",
+        "path": "/Tutorial Click Path/Customer Profile.upl",
         "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
       },
       "columnStyles": []
