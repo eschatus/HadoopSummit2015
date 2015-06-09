@@ -169,7 +169,7 @@
           "formulaString": "\u003dURL_FILE(#Clickstream_Data.request)"
         },
         {
-          "columnName": "L",
+          "columnName": "KB",
           "columnId": "11",
           "columnIndex": 11,
           "formulaString": "\u003d#Sheet1!bytes/1024"
@@ -244,7 +244,7 @@
         },
         {
           "columnId": "11",
-          "name": "L",
+          "name": "KB",
           "width": 100,
           "thousandSeparator": true
         }
