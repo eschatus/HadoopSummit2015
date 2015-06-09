@@ -53,7 +53,7 @@
           "formulaString": "\u003d#Clickstream_Data!status"
         },
         {
-          "columnName": "request_FileName",
+          "columnName": "FileType",
           "columnId": "4",
           "columnIndex": 4,
           "formulaString": "\u003dUPPER(FILE_TYPE(URL_FILE(#Clickstream_Data!request)))"
@@ -86,7 +86,7 @@
         },
         {
           "columnId": "4",
-          "name": "request_FileName",
+          "name": "FileType",
           "width": 100,
           "thousandSeparator": true
         }
