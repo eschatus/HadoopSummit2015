@@ -1,0 +1,15 @@
+{
+  "file": {
+    "uuid": "df2a44d5-88d2-41bf-a000-55ecb0bf1a3a",
+    "path": "/Users/data/.unsaved-configurations/unsaved 2015-06-09 15:52:01.wbk",
+    "name": "unsaved 2015-06-09 15:52:01"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
