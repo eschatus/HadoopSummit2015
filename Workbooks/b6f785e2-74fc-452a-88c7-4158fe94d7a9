@@ -93,6 +93,12 @@
           "columnId": "7",
           "columnIndex": 7,
           "formulaString": "\u003d#Sheet1!bytesSent/1024"
+        },
+        {
+          "columnName": "H1",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003dROUNDDOWN(#H)"
         }
       ],
       "columnStyles": [
@@ -143,9 +149,15 @@
           "name": "H",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "H1",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 8
+      "nextColumnId": 9
     },
     {
       "name": "Customer_Profile",
