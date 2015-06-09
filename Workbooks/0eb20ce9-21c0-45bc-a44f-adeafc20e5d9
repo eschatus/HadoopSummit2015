@@ -217,6 +217,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#Joined!Customer_Profile.Email)"
+        },
+        {
+          "columnName": "Total_Sheet1_H",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPSUM(#Joined!Sheet1.H)"
         }
       ],
       "columnStyles": [
@@ -225,9 +231,15 @@
           "name": "Customer_Profile_Email",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Total_Sheet1_H",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
