@@ -1,8 +1,9 @@
 {
   "file": {
     "uuid": "b73edf6e-e6b1-445e-917b-0e5b75cfdcdb",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-09 18:40:48.wbk",
-    "name": "unsaved 2015-06-09 18:40:48"
+    "path": "/Tutorial Click Path/Click Path.wbk",
+    "description": "",
+    "name": "Click Path"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
@@ -196,7 +197,7 @@
         {
           "columnId": "0",
           "name": "FileType_Path",
-          "width": 100,
+          "width": 384,
           "thousandSeparator": true
         },
         {
@@ -209,6 +210,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
