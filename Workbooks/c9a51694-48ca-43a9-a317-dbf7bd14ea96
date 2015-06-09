@@ -89,7 +89,7 @@
           "formulaString": "\u003dURL_FILE(#request)"
         },
         {
-          "columnName": "H",
+          "columnName": "Kbytes",
           "columnId": "7",
           "columnIndex": 7,
           "formulaString": "\u003drounddown(#bytesSent/1024;2)"
@@ -140,7 +140,7 @@
         },
         {
           "columnId": "7",
-          "name": "H",
+          "name": "Kbytes",
           "width": 100,
           "thousandSeparator": true
         }
