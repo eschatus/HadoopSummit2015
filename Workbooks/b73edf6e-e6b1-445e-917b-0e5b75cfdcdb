@@ -118,7 +118,7 @@
           "formulaString": "\u003dGROUP_PATH_CHANGES(#Format!FileType)"
         },
         {
-          "columnName": "D",
+          "columnName": "From",
           "columnId": "3",
           "columnIndex": 3,
           "formulaString": "\u003dJSON_ELEMENT(#FileType_Path;0)"
@@ -151,7 +151,7 @@
         },
         {
           "columnId": "3",
-          "name": "D",
+          "name": "From",
           "width": 100,
           "thousandSeparator": true
         },
