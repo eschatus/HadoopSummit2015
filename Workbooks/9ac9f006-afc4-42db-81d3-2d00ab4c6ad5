@@ -247,11 +247,19 @@
         {
           "columnId": "2",
           "name": "Clickstream_Data_request_FileName",
-          "width": 100,
+          "width": 368,
           "thousandSeparator": true
         }
       ],
       "nextColumnId": 3
+    },
+    {
+      "name": "Sheet2",
+      "sheetId": "db496fca-63c8-42e9-82d8-ed6a9ae93730",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [],
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
