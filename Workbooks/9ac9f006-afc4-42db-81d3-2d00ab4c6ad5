@@ -86,6 +86,101 @@
         }
       },
       "columnStyles": []
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "ccd82fda-059e-4e08-9c9d-ce96df72efff",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "Clickstream_Data.remoteUser",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Joined!Clickstream_Data.remoteUser"
+        },
+        {
+          "columnName": "Clickstream_Data.remoteHost",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Joined!Clickstream_Data.remoteHost"
+        },
+        {
+          "columnName": "Clickstream_Data.timeEnglishFormat",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Joined!Clickstream_Data.timeEnglishFormat"
+        },
+        {
+          "columnName": "Clickstream_Data.request",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Joined!Clickstream_Data.request"
+        },
+        {
+          "columnName": "Clickstream_Data.status",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Joined!Clickstream_Data.status"
+        },
+        {
+          "columnName": "Clickstream_Data.bytesSent",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#Joined!Clickstream_Data.bytesSent"
+        },
+        {
+          "columnName": "Customer_Profile.Email",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#Joined!Customer_Profile.Email"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "Clickstream_Data.remoteUser",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Clickstream_Data.remoteHost",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "Clickstream_Data.timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "Clickstream_Data.request",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "Clickstream_Data.status",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "Clickstream_Data.bytesSent",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "Customer_Profile.Email",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 7
     }
   ],
   "advancedSchedulingInUse": false,
