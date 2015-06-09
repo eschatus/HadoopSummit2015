@@ -222,6 +222,12 @@
           "columnId": "2",
           "columnIndex": 2,
           "formulaString": "\u003dGROUPCONCAT(#Joined!Work.request_FileName)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPCOUNT()"
         }
       ],
       "columnStyles": [
@@ -240,11 +246,17 @@
         {
           "columnId": "2",
           "name": "Work_request_FileName",
+          "width": 311,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "Count",
           "width": 100,
           "thousandSeparator": true
         }
       ],
-      "nextColumnId": 3
+      "nextColumnId": 4
     }
   ],
   "advancedSchedulingInUse": false,
