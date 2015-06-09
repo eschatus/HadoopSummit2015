@@ -157,6 +157,46 @@
         "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
       },
       "columnStyles": []
+    },
+    {
+      "name": "Joined",
+      "sheetId": "cb187328-98f9-4c6d-9616-517335f56c3c",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "_joinCategory": "TWO_MEMBER_JOIN",
+        "_joinPairs": [
+          {
+            "_joinType": "INNER",
+            "_sheet1": "Sheet1",
+            "_sheet2": "Customer_Profile",
+            "_joinColumns1": [
+              "remoteUser"
+            ],
+            "_joinColumns2": [
+              "User"
+            ]
+          }
+        ],
+        "_sheetToIncludeColumns": {
+          "Sheet1": [
+            "remoteHost",
+            "remoteUser",
+            "timeEnglishFormat",
+            "request",
+            "status",
+            "bytesSent",
+            "request_FileName",
+            "Kbytes"
+          ],
+          "Customer_Profile": [
+            "Email",
+            "Role",
+            "Activated"
+          ]
+        }
+      },
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
