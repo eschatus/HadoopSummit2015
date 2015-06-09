@@ -14,7 +14,7 @@
       "name": "Clickstream_Data",
       "sheetId": "878adc64-bb23-47bc-b80e-daf8bf31669f",
       "sheetType": "das.internal.DataSourceSheetType",
-      "keep": false,
+      "keep": true,
       "datasource": {
         "path": "/Tutorial Click Path/Clickstream Data.upl",
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
