@@ -274,6 +274,12 @@
           "columnId": "2",
           "columnIndex": 2,
           "formulaString": "\u003dGROUPMAX(#Sheet1!Clickstream_Data.timeEnglishFormat)"
+        },
+        {
+          "columnName": "D",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#end-#Start"
         }
       ],
       "columnStyles": [
@@ -294,9 +300,15 @@
           "name": "end",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "D",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 3
+      "nextColumnId": 4
     }
   ],
   "advancedSchedulingInUse": false,
