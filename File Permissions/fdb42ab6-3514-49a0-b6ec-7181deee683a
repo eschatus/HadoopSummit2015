@@ -1,0 +1,21 @@
+{
+  "id": 62,
+  "owner": "biuser",
+  "permissionOfOthers": {
+    "executable": false,
+    "readable": false,
+    "writable": false
+  },
+  "shared": false,
+  "groupPermissions": [
+    {
+      "id": 11,
+      "name": "Data Admins",
+      "flags": {
+        "executable": false,
+        "readable": false,
+        "writable": false
+      }
+    }
+  ]
+}
