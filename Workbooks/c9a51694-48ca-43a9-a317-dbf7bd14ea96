@@ -92,7 +92,7 @@
           "columnName": "H",
           "columnId": "7",
           "columnIndex": 7,
-          "formulaString": "\u003d#bytesSent/1024"
+          "formulaString": "\u003drounddown(#bytesSent/1024;2)"
         }
       ],
       "columnStyles": [
