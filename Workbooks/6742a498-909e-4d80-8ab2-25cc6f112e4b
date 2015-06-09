@@ -395,6 +395,15 @@
       "sheetId": "bfaa9a31-ca0f-491a-b0d2-683475acef4e",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet2",
+      "sortTargetSheet": "Sheet2",
+      "topN": 50,
+      "sortKeys": [
+        {
+          "column": "Count",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Clickstream_Data_request_FileName",
@@ -413,7 +422,7 @@
         {
           "columnId": "0",
           "name": "Clickstream_Data_request_FileName",
-          "width": 100,
+          "width": 258,
           "thousandSeparator": true
         },
         {
