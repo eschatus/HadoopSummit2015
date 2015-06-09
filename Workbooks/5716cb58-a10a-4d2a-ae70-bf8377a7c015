@@ -155,6 +155,12 @@
           "columnId": "10",
           "columnIndex": 10,
           "formulaString": "\u003d#Joined!Customer_Profile.Activated"
+        },
+        {
+          "columnName": "Clickstream_Data_request_FileName",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003dURL_FILE(#Clickstream_Data.request)"
         }
       ],
       "columnStyles": [
@@ -185,7 +191,7 @@
         {
           "columnId": "4",
           "name": "Clickstream_Data.request",
-          "width": 100,
+          "width": 316,
           "thousandSeparator": true
         },
         {
@@ -223,9 +229,15 @@
           "name": "Customer_Profile.Activated",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "Clickstream_Data_request_FileName",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 11
+      "nextColumnId": 12
     }
   ],
   "advancedSchedulingInUse": false,
