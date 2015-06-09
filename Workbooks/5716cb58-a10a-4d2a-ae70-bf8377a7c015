@@ -1,8 +1,9 @@
 {
   "file": {
     "uuid": "5716cb58-a10a-4d2a-ae70-bf8377a7c015",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-09 19:08:29.wbk",
-    "name": "unsaved 2015-06-09 19:08:29"
+    "path": "/Users/biuser/Workbook8.wbk",
+    "description": "",
+    "name": "Workbook8"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
@@ -284,6 +285,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
