@@ -263,8 +263,23 @@
       "sheetId": "7a034bb9-5d8b-4e89-91e6-45e6eca0be38",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
-      "formulas": [],
-      "columnStyles": []
+      "formulas": [
+        {
+          "columnName": "Customer_Profile_Email",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Sheet1!Customer_Profile_Email)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "Customer_Profile_Email",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 1
     }
   ],
   "advancedSchedulingInUse": false,
