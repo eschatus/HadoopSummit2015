@@ -270,7 +270,7 @@
           "formulaString": "\u003dGROUPBYGAP(#Sheet1!Clickstream_Data.timeEnglishFormat;5m)"
         },
         {
-          "columnName": "Max_Clickstream_Data_timeEnglishFormat",
+          "columnName": "end",
           "columnId": "2",
           "columnIndex": 2,
           "formulaString": "\u003dGROUPMAX(#Sheet1!Clickstream_Data.timeEnglishFormat)"
@@ -291,7 +291,7 @@
         },
         {
           "columnId": "2",
-          "name": "Max_Clickstream_Data_timeEnglishFormat",
+          "name": "end",
           "width": 100,
           "thousandSeparator": true
         }
