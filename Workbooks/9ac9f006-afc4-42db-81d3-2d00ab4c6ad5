@@ -140,6 +140,12 @@
           "columnId": "7",
           "columnIndex": 7,
           "formulaString": "\u003dURL_FILE(#Clickstream_Data.request)"
+        },
+        {
+          "columnName": "I",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#Sheet1!Clickstream_Data.bytesSent/1024"
         }
       ],
       "columnStyles": [
@@ -190,9 +196,15 @@
           "name": "Clickstream_Data_request_FileName",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "I",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 8
+      "nextColumnId": 9
     }
   ],
   "advancedSchedulingInUse": false,
