@@ -56,6 +56,12 @@
           "columnId": "4",
           "columnIndex": 4,
           "formulaString": "\u003d#Clickstream_Data!bytesSent"
+        },
+        {
+          "columnName": "remoteHost_Sha256",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003dSHA_256(#Clickstream_Data!remoteHost)"
         }
       ],
       "columnStyles": [
@@ -88,9 +94,15 @@
           "name": "bytesSent",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "remoteHost_Sha256",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 5
+      "nextColumnId": 6
     }
   ],
   "advancedSchedulingInUse": false,
