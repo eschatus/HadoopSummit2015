@@ -345,6 +345,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#UserSessions!Customer_Profile_Email)"
+        },
+        {
+          "columnName": "Average_Mins",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPAVERAGE(#UserSessions!Mins)"
         }
       ],
       "columnStyles": [
@@ -353,9 +359,15 @@
           "name": "Customer_Profile_Email",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Average_Mins",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
