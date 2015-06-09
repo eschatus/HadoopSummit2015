@@ -47,7 +47,7 @@
           "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
         },
         {
-          "columnName": "status",
+          "columnName": "Code",
           "columnId": "3",
           "columnIndex": 3,
           "formulaString": "\u003d#Clickstream_Data!status"
@@ -80,7 +80,7 @@
         },
         {
           "columnId": "3",
-          "name": "status",
+          "name": "Code",
           "width": 100,
           "thousandSeparator": true
         },
