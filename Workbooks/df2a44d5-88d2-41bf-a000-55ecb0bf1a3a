@@ -20,6 +20,77 @@
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
       },
       "columnStyles": []
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "1442cf0f-6188-42ed-bd1b-485fd67810dc",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "remoteUser",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Clickstream_Data!remoteUser"
+        },
+        {
+          "columnName": "timeEnglishFormat",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
+        },
+        {
+          "columnName": "request",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Clickstream_Data!request"
+        },
+        {
+          "columnName": "status",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Clickstream_Data!status"
+        },
+        {
+          "columnName": "bytesSent",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Clickstream_Data!bytesSent"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "remoteUser",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "request",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "status",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "bytesSent",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 5
     }
   ],
   "advancedSchedulingInUse": false,
