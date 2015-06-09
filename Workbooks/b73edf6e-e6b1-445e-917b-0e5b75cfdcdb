@@ -102,7 +102,7 @@
         {
           "columnName": "Customer",
           "columnId": "0",
-          "columnIndex": 1,
+          "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#Format!Customer)"
         }
       ],
