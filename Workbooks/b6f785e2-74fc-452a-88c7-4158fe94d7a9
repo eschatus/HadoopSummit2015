@@ -192,6 +192,14 @@
       "sheetId": "58cd3a55-11fd-44a4-89a9-caea6eae948f",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet2",
+      "sortTargetSheet": "Sheet2",
+      "sortKeys": [
+        {
+          "column": "Average_Sheet1_bytesSent",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
