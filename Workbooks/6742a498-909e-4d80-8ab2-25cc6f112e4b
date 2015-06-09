@@ -280,6 +280,12 @@
           "columnId": "3",
           "columnIndex": 3,
           "formulaString": "\u003d(#end-#Start)/1m"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPCOUNT()"
         }
       ],
       "columnStyles": [
@@ -306,9 +312,15 @@
           "name": "Mins",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 4
+      "nextColumnId": 5
     }
   ],
   "advancedSchedulingInUse": false,
