@@ -264,7 +264,7 @@
           "formulaString": "\u003dGROUPBY(#Sheet1!Customer_Profile.Email)"
         },
         {
-          "columnName": "First_Clickstream_Data_timeEnglishFormat",
+          "columnName": "Start",
           "columnId": "1",
           "columnIndex": 1,
           "formulaString": "\u003dGROUPBYGAP(#Sheet1!Clickstream_Data.timeEnglishFormat;5m)"
@@ -285,7 +285,7 @@
         },
         {
           "columnId": "1",
-          "name": "First_Clickstream_Data_timeEnglishFormat",
+          "name": "Start",
           "width": 179,
           "thousandSeparator": true
         },
