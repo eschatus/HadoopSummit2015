@@ -23,7 +23,7 @@
       "partitionSelectionExpression": "$partition \u003e\u003d ASDATE(\"15-09-2010 01:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\") \u0026\u0026 $partition \u003c\u003d ASDATE(\"16-09-2010 02:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\")"
     },
     {
-      "name": "Sheet1",
+      "name": "Format",
       "sheetId": "f70ebfef-90a3-450f-9c72-c9b1162e6736",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
