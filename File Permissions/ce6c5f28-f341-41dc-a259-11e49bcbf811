@@ -13,7 +13,7 @@
       "name": "Business user",
       "flags": {
         "executable": false,
-        "readable": false,
+        "readable": true,
         "writable": false
       }
     },
