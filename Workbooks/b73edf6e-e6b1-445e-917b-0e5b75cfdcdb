@@ -41,7 +41,7 @@
           "formulaString": "\u003d#Clickstream_Data!remoteUser"
         },
         {
-          "columnName": "timeEnglishFormat",
+          "columnName": "Timestamp",
           "columnId": "2",
           "columnIndex": 2,
           "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
@@ -74,7 +74,7 @@
         },
         {
           "columnId": "2",
-          "name": "timeEnglishFormat",
+          "name": "Timestamp",
           "width": 100,
           "thousandSeparator": true
         },
