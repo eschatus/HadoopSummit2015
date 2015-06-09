@@ -133,7 +133,7 @@
           "formulaString": "\u003d#Joined!Clickstream_Data.status"
         },
         {
-          "columnName": "Clickstream_Data.bytesSent",
+          "columnName": "bytes",
           "columnId": "5",
           "columnIndex": 5,
           "formulaString": "\u003d#Joined!Clickstream_Data.bytesSent"
@@ -202,7 +202,7 @@
         },
         {
           "columnId": "5",
-          "name": "Clickstream_Data.bytesSent",
+          "name": "bytes",
           "width": 100,
           "thousandSeparator": true
         },
@@ -233,7 +233,7 @@
         {
           "columnId": "10",
           "name": "Clickstream_Data_request_FileName",
-          "width": 100,
+          "width": 118,
           "thousandSeparator": true
         }
       ],
