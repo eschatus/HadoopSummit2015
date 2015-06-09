@@ -124,7 +124,7 @@
           "formulaString": "\u003dJSON_ELEMENT(#FileType_Path;0)"
         },
         {
-          "columnName": "E",
+          "columnName": "To",
           "columnId": "4",
           "columnIndex": 4,
           "formulaString": "\u003dJSON_ELEMENT(#FileType_Path;1)"
@@ -157,7 +157,7 @@
         },
         {
           "columnId": "4",
-          "name": "E",
+          "name": "To",
           "width": 100,
           "thousandSeparator": true
         }
