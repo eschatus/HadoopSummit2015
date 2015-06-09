@@ -35,7 +35,7 @@
           "formulaString": "\u003d#Clickstream_Data!remoteHost"
         },
         {
-          "columnName": "remoteUser",
+          "columnName": "Customer",
           "columnId": "1",
           "columnIndex": 1,
           "formulaString": "\u003d#Clickstream_Data!remoteUser"
@@ -68,7 +68,7 @@
         },
         {
           "columnId": "1",
-          "name": "remoteUser",
+          "name": "Customer",
           "width": 100,
           "thousandSeparator": true
         },
