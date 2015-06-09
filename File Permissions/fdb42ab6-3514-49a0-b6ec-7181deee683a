@@ -1,5 +1,5 @@
 {
-  "id": 62,
+  "id": 63,
   "owner": "biuser",
   "permissionOfOthers": {
     "executable": false,
@@ -9,12 +9,12 @@
   "shared": false,
   "groupPermissions": [
     {
-      "id": 11,
-      "name": "Data Admins",
+      "id": 13,
+      "name": "Business user",
       "flags": {
-        "executable": true,
-        "readable": true,
-        "writable": true
+        "executable": false,
+        "readable": false,
+        "writable": false
       }
     }
   ]
