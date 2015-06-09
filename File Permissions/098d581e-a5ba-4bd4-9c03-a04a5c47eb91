@@ -23,7 +23,7 @@
       "flags": {
         "executable": false,
         "readable": true,
-        "writable": false
+        "writable": true
       }
     }
   ]
