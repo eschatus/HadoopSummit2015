@@ -276,7 +276,7 @@
           "formulaString": "\u003dGROUPMAX(#Sheet1!Clickstream_Data.timeEnglishFormat)"
         },
         {
-          "columnName": "D",
+          "columnName": "Mins",
           "columnId": "3",
           "columnIndex": 3,
           "formulaString": "\u003d(#end-#Start)/1m"
@@ -303,7 +303,7 @@
         },
         {
           "columnId": "3",
-          "name": "D",
+          "name": "Mins",
           "width": 100,
           "thousandSeparator": true
         }
