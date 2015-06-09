@@ -98,8 +98,23 @@
       "sheetId": "71206709-5901-47fa-90c3-d6d301525801",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
-      "formulas": [],
-      "columnStyles": []
+      "formulas": [
+        {
+          "columnName": "Customer",
+          "columnId": "0",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#Format!Customer)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "Customer",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 1
     }
   ],
   "advancedSchedulingInUse": false,
