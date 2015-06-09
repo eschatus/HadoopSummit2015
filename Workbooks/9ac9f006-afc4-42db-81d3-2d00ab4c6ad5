@@ -134,6 +134,12 @@
           "columnId": "6",
           "columnIndex": 6,
           "formulaString": "\u003d#Joined!Customer_Profile.Email"
+        },
+        {
+          "columnName": "Clickstream_Data_request_FileName",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003dURL_FILE(#Clickstream_Data.request)"
         }
       ],
       "columnStyles": [
@@ -178,9 +184,15 @@
           "name": "Customer_Profile.Email",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "Clickstream_Data_request_FileName",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 7
+      "nextColumnId": 8
     }
   ],
   "advancedSchedulingInUse": false,
