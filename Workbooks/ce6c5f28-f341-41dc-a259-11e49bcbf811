@@ -196,6 +196,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#Joined!Customer_Profile.Email)"
+        },
+        {
+          "columnName": "First_Sheet1_timeEnglishFormat",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBYGAP(#Joined!Sheet1.timeEnglishFormat;5m)"
         }
       ],
       "columnStyles": [
@@ -204,9 +210,15 @@
           "name": "Customer_Profile_Email",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "First_Sheet1_timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
