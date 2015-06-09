@@ -116,6 +116,12 @@
           "columnId": "2",
           "columnIndex": 2,
           "formulaString": "\u003dGROUP_PATH_CHANGES(#Format!FileType)"
+        },
+        {
+          "columnName": "D",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dJSON_ELEMENT(#FileType_Path;0)"
         }
       ],
       "columnStyles": [
@@ -134,11 +140,17 @@
         {
           "columnId": "2",
           "name": "FileType_Path",
+          "width": 367,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "D",
           "width": 100,
           "thousandSeparator": true
         }
       ],
-      "nextColumnId": 3
+      "nextColumnId": 4
     }
   ],
   "advancedSchedulingInUse": false,
