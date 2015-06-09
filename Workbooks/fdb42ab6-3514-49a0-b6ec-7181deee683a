@@ -1,10 +1,11 @@
 {
   "file": {
     "uuid": "fdb42ab6-3514-49a0-b6ec-7181deee683a",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-09 15:17:23.wbk",
-    "name": "unsaved 2015-06-09 15:17:23"
+    "path": "/Users/biuser/Workbook3.wbk",
+    "description": "",
+    "name": "Workbook3"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
   "notificationAddresses": "",
@@ -15,6 +16,9 @@
       "sheetId": "0fa3dd4d-8cde-4381-a2cd-3c41379413f2",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "filterSourceSheet": "Clickstream_Data",
       "filterTargetSheet": "Clickstream_Data",
       "connector": "AND",
@@ -44,7 +48,7 @@
       "name": "Work",
       "sheetId": "80a68694-23e3-4726-af5b-02567007cd78",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "filterSourceSheet": "Work",
       "filterTargetSheet": "Work",
       "connector": "AND",
@@ -203,7 +207,7 @@
       "name": "Sheet1",
       "sheetId": "87a4a410-2149-48a5-9d5a-1aba70ed0a69",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
@@ -303,6 +307,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
