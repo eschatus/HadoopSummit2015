@@ -56,7 +56,7 @@
           "columnName": "FileType",
           "columnId": "4",
           "columnIndex": 4,
-          "formulaString": "\u003dUPPER(FILE_TYPE(URL_FILE(#Clickstream_Data!request)))"
+          "formulaString": "\u003dUPPER(URL_FILE(#Clickstream_Data!request))"
         }
       ],
       "columnStyles": [
