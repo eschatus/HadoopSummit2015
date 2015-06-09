@@ -205,6 +205,15 @@
       "sheetId": "b039aac3-33a6-4969-97e7-8d462b28a5ad",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet1",
+      "sortTargetSheet": "Sheet1",
+      "topN": 10,
+      "sortKeys": [
+        {
+          "column": "Total_work_kb",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
