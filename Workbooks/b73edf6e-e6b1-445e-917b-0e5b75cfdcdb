@@ -29,7 +29,7 @@
       "keep": true,
       "formulas": [
         {
-          "columnName": "remoteHost",
+          "columnName": "Host",
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003d#Clickstream_Data!remoteHost"
@@ -62,7 +62,7 @@
       "columnStyles": [
         {
           "columnId": "0",
-          "name": "remoteHost",
+          "name": "Host",
           "width": 100,
           "thousandSeparator": true
         },
