@@ -9,7 +9,20 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "Clickstream_Data",
+      "sheetId": "07ae425a-8c2e-47d0-be98-a08079d65c49",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Tutorial Click Path/Clickstream Data.upl",
+        "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
+      },
+      "columnStyles": [],
+      "partitionSelectionExpression": "$partition \u003e\u003d ASDATE(\"15-09-2010 01:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\") \u0026\u0026 $partition \u003c\u003d ASDATE(\"16-09-2010 02:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\")"
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
