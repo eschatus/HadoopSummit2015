@@ -25,6 +25,13 @@
           "value": "200",
           "valueStatic": true,
           "type": "CONSTANT"
+        },
+        {
+          "column": "request",
+          "filterExpression": "CONTAINS",
+          "value": "html",
+          "valueStatic": true,
+          "type": "CONSTANT"
         }
       ],
       "datasource": {
