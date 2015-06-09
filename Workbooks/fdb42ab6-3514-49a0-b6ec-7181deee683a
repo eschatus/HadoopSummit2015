@@ -47,55 +47,43 @@
       "keep": true,
       "formulas": [
         {
-          "columnName": "remoteHost",
-          "columnId": "0",
-          "columnIndex": 0,
-          "formulaString": "\u003d#Clickstream_Data!remoteHost"
-        },
-        {
           "columnName": "remoteUser",
           "columnId": "1",
-          "columnIndex": 1,
+          "columnIndex": 0,
           "formulaString": "\u003d#Clickstream_Data!remoteUser"
         },
         {
           "columnName": "timeEnglishFormat",
           "columnId": "2",
-          "columnIndex": 2,
+          "columnIndex": 1,
           "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
         },
         {
           "columnName": "request",
           "columnId": "3",
-          "columnIndex": 3,
+          "columnIndex": 2,
           "formulaString": "\u003d#Clickstream_Data!request"
         },
         {
           "columnName": "status",
           "columnId": "4",
-          "columnIndex": 4,
+          "columnIndex": 3,
           "formulaString": "\u003d#Clickstream_Data!status"
         },
         {
           "columnName": "bytesSent",
           "columnId": "5",
-          "columnIndex": 5,
+          "columnIndex": 4,
           "formulaString": "\u003d#Clickstream_Data!bytesSent"
         },
         {
           "columnName": "request_FileName",
           "columnId": "6",
-          "columnIndex": 6,
+          "columnIndex": 5,
           "formulaString": "\u003dURL_FILE(#request)"
         }
       ],
       "columnStyles": [
-        {
-          "columnId": "0",
-          "name": "remoteHost",
-          "width": 100,
-          "thousandSeparator": true
-        },
         {
           "columnId": "1",
           "name": "remoteUser",
