@@ -16,6 +16,15 @@
         "readable": false,
         "writable": false
       }
+    },
+    {
+      "id": 15,
+      "name": "Data Admins",
+      "flags": {
+        "executable": false,
+        "readable": false,
+        "writable": false
+      }
     }
   ]
 }
