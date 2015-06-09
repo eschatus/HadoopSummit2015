@@ -203,6 +203,15 @@
       "sheetId": "81c1dfb0-ec47-4c69-a9c9-da653485ca0c",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet2",
+      "sortTargetSheet": "Sheet2",
+      "topN": 10,
+      "sortKeys": [
+        {
+          "column": "Average_Sheet1_Kbytes",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
