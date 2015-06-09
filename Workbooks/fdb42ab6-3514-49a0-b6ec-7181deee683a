@@ -45,6 +45,18 @@
       "sheetId": "80a68694-23e3-4726-af5b-02567007cd78",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "filterSourceSheet": "Work",
+      "filterTargetSheet": "Work",
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "remoteUser",
+          "filterExpression": "NOT_EMPTY",
+          "value": "null",
+          "valueStatic": true,
+          "type": "CONSTANT"
+        }
+      ],
       "formulas": [
         {
           "columnName": "remoteUser",
