@@ -395,8 +395,23 @@
       "sheetId": "bfaa9a31-ca0f-491a-b0d2-683475acef4e",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
-      "formulas": [],
-      "columnStyles": []
+      "formulas": [
+        {
+          "columnName": "Clickstream_Data_request_FileName",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#UserSessions!Clickstream_Data_request_FileName)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "Clickstream_Data_request_FileName",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 1
     }
   ],
   "advancedSchedulingInUse": false,
