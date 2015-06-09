@@ -1,10 +1,11 @@
 {
   "file": {
     "uuid": "9ac9f006-afc4-42db-81d3-2d00ab4c6ad5",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-09 13:57:57.wbk",
-    "name": "unsaved 2015-06-09 13:57:57"
+    "path": "/Users/biuser/Workbook.wbk",
+    "description": "",
+    "name": "Workbook"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
   "notificationAddresses": "",
@@ -15,6 +16,9 @@
       "sheetId": "878adc64-bb23-47bc-b80e-daf8bf31669f",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": true,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "filterSourceSheet": "Clickstream_Data",
       "filterTargetSheet": "Clickstream_Data",
       "connector": "AND",
@@ -45,6 +49,9 @@
       "sheetId": "b705dd6e-9a06-474b-b869-dcefd5720a95",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "datasource": {
         "path": "/Tutorial Click Path/Customer Profile.upl",
         "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
@@ -289,6 +296,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
