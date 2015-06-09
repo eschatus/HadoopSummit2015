@@ -3,7 +3,7 @@
   "owner": "admin",
   "permissionOfOthers": {
     "readable": true,
-    "writable": false
+    "writable": true
   },
   "groupPermissions": []
 }
