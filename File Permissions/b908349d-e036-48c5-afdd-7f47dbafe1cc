@@ -1,0 +1,11 @@
+{
+  "id": 97,
+  "owner": "biuser",
+  "permissionOfOthers": {
+    "executable": false,
+    "readable": false,
+    "writable": false
+  },
+  "shared": false,
+  "groupPermissions": []
+}
