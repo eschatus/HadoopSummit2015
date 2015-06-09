@@ -93,6 +93,12 @@
           "columnId": "6",
           "columnIndex": 6,
           "formulaString": "\u003dURL_FILE(#request)"
+        },
+        {
+          "columnName": "H",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#bytesSent/1024"
         }
       ],
       "columnStyles": [
@@ -137,9 +143,15 @@
           "name": "request_FileName",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "H",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 7
+      "nextColumnId": 8
     }
   ],
   "advancedSchedulingInUse": false,
