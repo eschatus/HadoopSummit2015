@@ -351,6 +351,12 @@
           "columnId": "1",
           "columnIndex": 1,
           "formulaString": "\u003dGROUPAVERAGE(#UserSessions!Mins)"
+        },
+        {
+          "columnName": "Average_Count",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPAVERAGE(#UserSessions!Count)"
         }
       ],
       "columnStyles": [
@@ -365,9 +371,15 @@
           "name": "Average_Mins",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "Average_Count",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 2
+      "nextColumnId": 3
     }
   ],
   "advancedSchedulingInUse": false,
