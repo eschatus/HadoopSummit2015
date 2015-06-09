@@ -21,6 +21,65 @@
       },
       "columnStyles": [],
       "partitionSelectionExpression": "$partition \u003e\u003d ASDATE(\"15-09-2010 01:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\") \u0026\u0026 $partition \u003c\u003d ASDATE(\"16-09-2010 02:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\")"
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "f70ebfef-90a3-450f-9c72-c9b1162e6736",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "remoteHost",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Clickstream_Data!remoteHost"
+        },
+        {
+          "columnName": "remoteUser",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Clickstream_Data!remoteUser"
+        },
+        {
+          "columnName": "timeEnglishFormat",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
+        },
+        {
+          "columnName": "status",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Clickstream_Data!status"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "remoteHost",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "remoteUser",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "status",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 4
     }
   ],
   "advancedSchedulingInUse": false,
