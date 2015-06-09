@@ -279,7 +279,7 @@
           "columnName": "D",
           "columnId": "3",
           "columnIndex": 3,
-          "formulaString": "\u003d#end-#Start"
+          "formulaString": "\u003d(#end-#Start)/1m"
         }
       ],
       "columnStyles": [
