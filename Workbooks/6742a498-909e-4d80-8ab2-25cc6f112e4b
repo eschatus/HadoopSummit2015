@@ -252,7 +252,7 @@
       "nextColumnId": 12
     },
     {
-      "name": "Sheet2",
+      "name": "UserSessions",
       "sheetId": "ebf12e16-50c9-4431-8bc0-b0ceb55f6932",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
@@ -328,7 +328,7 @@
         {
           "columnId": "5",
           "name": "Clickstream_Data_request_FileName",
-          "width": 100,
+          "width": 454,
           "thousandSeparator": true
         }
       ],
