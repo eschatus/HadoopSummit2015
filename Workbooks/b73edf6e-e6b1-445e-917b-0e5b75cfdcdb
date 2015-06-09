@@ -110,6 +110,12 @@
           "columnId": "1",
           "columnIndex": 1,
           "formulaString": "\u003dGROUPBYGAP(#Format!Timestamp;15m)"
+        },
+        {
+          "columnName": "FileType_Path",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUP_PATH_CHANGES(#Format!FileType)"
         }
       ],
       "columnStyles": [
@@ -122,11 +128,17 @@
         {
           "columnId": "1",
           "name": "First_Timestamp",
+          "width": 161,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "FileType_Path",
           "width": 100,
           "thousandSeparator": true
         }
       ],
-      "nextColumnId": 2
+      "nextColumnId": 3
     }
   ],
   "advancedSchedulingInUse": false,
