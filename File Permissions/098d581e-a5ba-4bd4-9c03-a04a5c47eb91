@@ -1,0 +1,21 @@
+{
+  "id": 94,
+  "owner": "biuser",
+  "permissionOfOthers": {
+    "executable": false,
+    "readable": false,
+    "writable": false
+  },
+  "shared": false,
+  "groupPermissions": [
+    {
+      "id": 17,
+      "name": "Business user",
+      "flags": {
+        "executable": false,
+        "readable": false,
+        "writable": false
+      }
+    }
+  ]
+}
