@@ -41,7 +41,7 @@
       "columnStyles": []
     },
     {
-      "name": "Sheet1",
+      "name": "Work",
       "sheetId": "80a68694-23e3-4726-af5b-02567007cd78",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
@@ -129,7 +129,7 @@
         {
           "columnId": "7",
           "name": "remoteHost_Sha256",
-          "width": 100,
+          "width": 159,
           "thousandSeparator": true
         }
       ],
