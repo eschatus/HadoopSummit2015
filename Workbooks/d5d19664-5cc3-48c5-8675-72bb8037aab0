@@ -34,13 +34,6 @@
           "value": "null",
           "valueStatic": true,
           "type": "CONSTANT"
-        },
-        {
-          "column": "status",
-          "filterExpression": "EQUALS",
-          "value": "200",
-          "valueStatic": true,
-          "type": "CONSTANT"
         }
       ],
       "datasource": {
