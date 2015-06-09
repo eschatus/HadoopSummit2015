@@ -217,6 +217,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#Work!Customer_Profile.Email)"
+        },
+        {
+          "columnName": "First_Clickstream_Data_timeEnglishFormat",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBYGAP(#Work!Clickstream_Data.timeEnglishFormat;5m)"
         }
       ],
       "columnStyles": [
@@ -225,9 +231,15 @@
           "name": "Customer_Profile_Email",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "First_Clickstream_Data_timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
