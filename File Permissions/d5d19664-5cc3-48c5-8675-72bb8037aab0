@@ -14,7 +14,7 @@
       "flags": {
         "executable": true,
         "readable": true,
-        "writable": false
+        "writable": true
       }
     },
     {
