@@ -89,6 +89,15 @@
       "sheetId": "4e02bddb-d213-4712-bc93-f89817b9d1a7",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet1",
+      "sortTargetSheet": "Sheet1",
+      "topN": 10,
+      "sortKeys": [
+        {
+          "column": "Total_Clickstream_Data_bytesSent",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
