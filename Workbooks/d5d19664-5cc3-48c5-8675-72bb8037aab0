@@ -100,6 +100,12 @@
           "columnId": "5",
           "columnIndex": 5,
           "formulaString": "\u003d#Clickstream_Data!bytesSent/1024"
+        },
+        {
+          "columnName": "request_FileName",
+          "columnId": "7",
+          "columnIndex": 6,
+          "formulaString": "\u003dURL_FILE(#Clickstream_Data!request)"
         }
       ],
       "columnStyles": [
@@ -140,9 +146,15 @@
           "name": "Filename",
           "width": 195,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "request_FileName",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 7
+      "nextColumnId": 8
     },
     {
       "name": "SessionStats",
