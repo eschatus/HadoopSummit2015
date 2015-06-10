@@ -1,8 +1,9 @@
 {
   "file": {
     "uuid": "f8439386-97ef-4830-a757-c55eb1491e06",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-09 21:29:29.wbk",
-    "name": "unsaved 2015-06-09 21:29:29"
+    "path": "/Users/biuser/Workbook9.wbk",
+    "description": "",
+    "name": "Workbook9"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
@@ -88,7 +89,7 @@
       "name": "Sheet1",
       "sheetId": "06e0c9e4-cf3d-4cef-9c9c-6a5c813dbe89",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "formulas": [
         {
           "columnName": "Clickstream_Data.remoteUser",
@@ -284,6 +285,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
