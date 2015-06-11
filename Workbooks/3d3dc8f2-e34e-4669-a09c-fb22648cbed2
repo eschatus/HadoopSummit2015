@@ -1,8 +1,9 @@
 {
   "file": {
     "uuid": "3d3dc8f2-e34e-4669-a09c-fb22648cbed2",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-11 14:30:16.wbk",
-    "name": "unsaved 2015-06-11 14:30:16"
+    "path": "/Users/biuser/Workbook3.wbk",
+    "description": "",
+    "name": "Workbook3"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
@@ -37,7 +38,7 @@
       "name": "Sheet1",
       "sheetId": "9c81da2c-77eb-4421-8b19-4c27331e570a",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "formulas": [
         {
           "columnName": "remoteHost",
@@ -238,6 +239,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
