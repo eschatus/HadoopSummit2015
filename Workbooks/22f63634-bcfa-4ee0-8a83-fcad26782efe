@@ -243,6 +243,118 @@
         }
       ],
       "nextColumnId": 2
+    },
+    {
+      "name": "columnDependenciesSheet1",
+      "sheetId": "5684b38e-7013-4064-b795-8b78c6c7c3ec",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "columnDependencies",
+          "includedColumns": [
+            {
+              "id": "843078c290bcbbe968017fed379c294b",
+              "index": "0",
+              "name": "Sheet1.remoteUser",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "54e83980b3a5db7dc68f0e164cffe864",
+              "index": "1",
+              "name": "Customer_Profile.User",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "ce9d0dc046715247af6c6f71485179be",
+              "index": "2",
+              "name": "Sheet1.remoteHost",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "7067bec12ea8332cec2ea7db7ee56ff5",
+              "index": "4",
+              "name": "Sheet1.request",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "bb37c8f60ed3ef5b2dca564867f9384a",
+              "index": "5",
+              "name": "Sheet1.status",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "06b21f1c7ea08462624cf29d2e554e96",
+              "index": "6",
+              "name": "Sheet1.bytesSent",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "607daa4ca64ea344068384fc061f2588",
+              "index": "7",
+              "name": "Sheet1.request_FileName",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "4a01edba43e608504375a6be3fef9ac1",
+              "index": "8",
+              "name": "Sheet1.H",
+              "type": {
+                "type": "FLOAT"
+              }
+            },
+            {
+              "id": "dd689ab6bcd5c26fb6f2f84c300d7f90",
+              "index": "9",
+              "name": "Customer_Profile.ID",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "468091323b984e42484e3222d30b5834",
+              "index": "10",
+              "name": "Customer_Profile.Email",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "6d734d9a0864eefb2080a522351c35c2",
+              "index": "11",
+              "name": "Customer_Profile.Role",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "c2e58598b3d48b273593e3b8d16c0f9f",
+              "index": "12",
+              "name": "Customer_Profile.Activated",
+              "type": {
+                "type": "BOOLEAN"
+              }
+            }
+          ],
+          "sourceSheetName": "Joined",
+          "maximumCardinality": "10000"
+        }
+      }
     }
   ],
   "advancedSchedulingInUse": true,
