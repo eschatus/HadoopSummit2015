@@ -74,6 +74,12 @@
           "columnId": "5",
           "columnIndex": 5,
           "formulaString": "\u003d#Clickstream_Data!bytesSent"
+        },
+        {
+          "columnName": "request_FileName",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003dURL_FILE(#request)"
         }
       ],
       "columnStyles": [
@@ -98,7 +104,7 @@
         {
           "columnId": "3",
           "name": "request",
-          "width": 100,
+          "width": 315,
           "thousandSeparator": true
         },
         {
@@ -112,9 +118,15 @@
           "name": "bytesSent",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "request_FileName",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 6
+      "nextColumnId": 7
     }
   ],
   "advancedSchedulingInUse": false,
