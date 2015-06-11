@@ -32,6 +32,89 @@
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
       },
       "columnStyles": []
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "07a23c7b-7c2b-4d52-b1bf-d532b5fdf11f",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "remoteHost",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Clickstream_Data!remoteHost"
+        },
+        {
+          "columnName": "remoteUser",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Clickstream_Data!remoteUser"
+        },
+        {
+          "columnName": "timeEnglishFormat",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Clickstream_Data!timeEnglishFormat"
+        },
+        {
+          "columnName": "request",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Clickstream_Data!request"
+        },
+        {
+          "columnName": "status",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Clickstream_Data!status"
+        },
+        {
+          "columnName": "bytesSent",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#Clickstream_Data!bytesSent"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "remoteHost",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "remoteUser",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "timeEnglishFormat",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "request",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "status",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "bytesSent",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 6
     }
   ],
   "advancedSchedulingInUse": false,
