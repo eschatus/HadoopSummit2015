@@ -5,7 +5,7 @@
     "description": "",
     "name": "Clickstream Analysis"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
   "hadoopProperties": "",
@@ -17,6 +17,9 @@
       "sheetId": "96b11c1a-4b15-4906-8f57-d091df4622eb",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "filterSourceSheet": "Clickstream_Data",
       "filterTargetSheet": "Clickstream_Data",
       "connector": "AND",
