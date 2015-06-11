@@ -1,10 +1,11 @@
 {
   "file": {
     "uuid": "eb9c8a42-9a2d-41c1-a151-a02fadb4ab90",
-    "path": "/Users/biuser/.unsaved-configurations/unsaved 2015-06-11 15:53:15.wbk",
-    "name": "unsaved 2015-06-11 15:53:15"
+    "path": "/Users/biuser/Workbook5.wbk",
+    "description": "",
+    "name": "Workbook5"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
   "notificationAddresses": "",
@@ -15,6 +16,9 @@
       "sheetId": "29b424fe-2da5-4c82-87fc-45bc14e1abd3",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "filterSourceSheet": "Clickstream_Data",
       "filterTargetSheet": "Clickstream_Data",
       "connector": "AND",
@@ -37,7 +41,7 @@
       "name": "Sheet1",
       "sheetId": "ccd69446-c44d-450e-8a56-ced069df0afc",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "formulas": [
         {
           "columnName": "remoteHost",
@@ -145,6 +149,9 @@
       "sheetId": "d586117c-94c9-4e08-9c92-f795feed2fe8",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "datasource": {
         "path": "/Tutorial Click Path/Customer Profile.upl",
         "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
@@ -238,6 +245,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
