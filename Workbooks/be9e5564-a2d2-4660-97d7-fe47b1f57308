@@ -45,6 +45,17 @@
           "thousandSeparator": true
         }
       ]
+    },
+    {
+      "name": "Customer_Profile",
+      "sheetId": "7304d2ff-ab0e-41fb-ac6c-3f18a742a823",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Tutorial Click Path/Customer Profile.upl",
+        "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
+      },
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
