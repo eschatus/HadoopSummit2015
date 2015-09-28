@@ -29,7 +29,7 @@
         {
           "column": "request",
           "filterExpression": "CONTAINS",
-          "value": "hmlt",
+          "value": "html",
           "valueStatic": true,
           "type": "CONSTANT"
         }
