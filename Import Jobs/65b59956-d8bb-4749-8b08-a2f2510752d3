@@ -1,0 +1,160 @@
+{
+  "file": {
+    "uuid": "65b59956-d8bb-4749-8b08-a2f2510752d3",
+    "path": "/Users/admin/Applications/Tutorial Click Path/Customer Profile.upl",
+    "description": "Customer profile data, used by several examples, including the Basic Tutorial.  While provided as a CSV for demonstration purposes, typically this information would come from a database.",
+    "name": "Customer Profile"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "fileType": [
+      "CSV"
+    ],
+    "file": [
+      "/Users/thomasscholz/Documents/work/dap/build/das-data/fileuploads/23/users.csv"
+    ],
+    "recordSampleSize": [
+      "1000"
+    ],
+    "delimiter": [
+      ","
+    ],
+    "external.header.file": [
+      ""
+    ],
+    "detectColumnDefinition": [
+      "SELECT_PARSE_AUTO"
+    ],
+    "external.header.delimiter": [
+      ","
+    ],
+    "quoteCharacter": [
+      "\""
+    ],
+    "csv.max-lines-per-record": [
+      "1"
+    ],
+    "escapeCharacter": [
+      ""
+    ],
+    "collectAdditionalFields": [
+      "false"
+    ],
+    "strictQuotes": [
+      "false"
+    ],
+    "characterEncoding": [
+      "UTF-8"
+    ],
+    "TextFileFormat": [
+      "TEXT"
+    ],
+    "GenericConfigurationImpl.temp-file-store": [
+      "5825f462-f278-47c6-b1fd-4fb4cf0b90be"
+    ],
+    "data.includes.header": [
+      "false"
+    ],
+    "external.contains.data": [
+      "false"
+    ],
+    "filter.page.does.split.creation": [
+      "false"
+    ],
+    "histogram.generation": [
+      "false"
+    ]
+  },
+  "dataStore": {
+    "path": "/.system/FileUploadDataStore.dst",
+    "uuid": "a8af2175-a948-4ecc-8902-4de95c0096fd"
+  },
+  "errorHandlingMode": "DROP_RECORD",
+  "maxLogErrors": 1000,
+  "maxPreviewRecords": 5000,
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "fields": [
+    {
+      "id": 53,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "ID",
+      "origin": "0",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 54,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "User",
+      "origin": "1",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 55,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "Email",
+      "origin": "2",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 56,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "Role",
+      "origin": "3",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 57,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "Activated",
+      "origin": "4",
+      "valueType": "{\"type\":\"BOOLEAN\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 58,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFileName",
+      "origin": "fileInfo.fileName",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 59,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFilePath",
+      "origin": "fileInfo.filePath",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 60,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasLastModified",
+      "origin": "fileInfo.lastModified",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    }
+  ]
+}
