@@ -1,0 +1,161 @@
+{
+  "file": {
+    "uuid": "0a797519-5650-4202-8892-b1e2229264af",
+    "path": "/Users/admin/Applications/Tutorial Click Path/Clickstream Data.upl",
+    "description": "A web server log file, used by several examples, including the Basic Tutorial. This illustrates processing raw, machine-generated data.",
+    "name": "Clickstream Data"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histogram.generation": [
+      "false"
+    ],
+    "GenericConfigurationImpl.temp-file-store": [
+      "2e403e3e-6cb2-45bb-983b-f7357ef315b8"
+    ],
+    "TextFileFormat": [
+      "TEXT"
+    ],
+    "empty.value.placeholders": [
+      "Null",
+      "-"
+    ],
+    "filter.page.does.split.creation": [
+      "false"
+    ],
+    "characterEncoding": [
+      "UTF-8"
+    ],
+    "default.empty.value.placeholders": [
+      "-"
+    ],
+    "recordSampleSize": [
+      "1000"
+    ],
+    "parsePattern": [
+      "%h %l %u %t \"%r\" %\u003es %b"
+    ],
+    "fileType": [
+      "APACHE_LOG"
+    ],
+    "file": [
+      "/Users/thomasscholz/Documents/work/dap/build/das-data/fileuploads/22/apache_gen.log"
+    ]
+  },
+  "dataStore": {
+    "path": "/.system/FileUploadDataStore.dst",
+    "uuid": "a8af2175-a948-4ecc-8902-4de95c0096fd"
+  },
+  "errorHandlingMode": "DROP_RECORD",
+  "maxLogErrors": 1000,
+  "maxPreviewRecords": 5000,
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "fields": [
+    {
+      "id": 43,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "remoteHost",
+      "origin": "0",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 44,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "logName",
+      "origin": "1",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 45,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "remoteUser",
+      "origin": "2",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 46,
+      "pattern": "dd/MMM/yyyy:hh:mm:ss Z",
+      "acceptEmpty": true,
+      "name": "timeEnglishFormat",
+      "origin": "3",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 47,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "request",
+      "origin": "4",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 48,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "status",
+      "origin": "5",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 49,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "bytesSent",
+      "origin": "6",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 50,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "dasFileName",
+      "origin": "fileInfo.fileName",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 51,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "dasFilePath",
+      "origin": "fileInfo.filePath",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 52,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "dasLastModified",
+      "origin": "fileInfo.lastModified",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    }
+  ],
+  "outputPartitionDefinition": {
+    "dateFormat": "yyyyMMddHH",
+    "dateGenerator": "\u003d(#timeEnglishFormat)"
+  }
+}
