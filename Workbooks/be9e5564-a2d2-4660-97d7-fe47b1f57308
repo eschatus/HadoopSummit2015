@@ -9,7 +9,19 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "Clickstream_Data",
+      "sheetId": "b39fa8ab-f94b-49de-8f1c-2fed5e530ba7",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Tutorial Click Path/Clickstream Data.upl",
+        "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
+      },
+      "columnStyles": []
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
