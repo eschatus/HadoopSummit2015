@@ -7,5 +7,15 @@
     "writable": false
   },
   "shared": false,
-  "groupPermissions": []
+  "groupPermissions": [
+    {
+      "id": 22,
+      "name": "Business user",
+      "flags": {
+        "executable": false,
+        "readable": false,
+        "writable": false
+      }
+    }
+  ]
 }
