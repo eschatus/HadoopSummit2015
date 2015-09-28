@@ -1,0 +1,21 @@
+{
+  "file": {
+    "uuid": "4ded37f0-7f84-4569-9d88-fb26fc86816e",
+    "path": "/.system/b6113686-dca8-4fb1-9740-5dc97d793df4.imp",
+    "description": "",
+    "name": "b6113686-dca8-4fb1-9740-5dc97d793df4"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "GenericConfigurationImpl.temp-file-store": [
+      "d23cd3f0-e215-46e7-8e0e-a7f738136863"
+    ]
+  },
+  "errorHandlingMode": "DROP_RECORD",
+  "maxLogErrors": 1000,
+  "maxPreviewRecords": 5000,
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "fields": []
+}
