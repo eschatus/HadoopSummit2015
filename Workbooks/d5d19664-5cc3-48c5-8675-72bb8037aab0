@@ -230,6 +230,12 @@
           "columnId": "9",
           "columnIndex": 8,
           "formulaString": "\u003dLISTELEMENT(#Path;0)"
+        },
+        {
+          "columnName": "J",
+          "columnId": "10",
+          "columnIndex": 9,
+          "formulaString": "\u003dLISTELEMENT(#Path;0)"
         }
       ],
       "columnStyles": [
@@ -292,9 +298,15 @@
           "name": "I",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "J",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 10
+      "nextColumnId": 11
     },
     {
       "name": "UserSessionStats",
