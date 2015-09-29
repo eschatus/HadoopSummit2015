@@ -335,6 +335,245 @@
           }
         }
       ]
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "1e03d20d-7b17-4a9d-a6c6-f83650736db6",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "age",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#ClusteringSheet1!age"
+        },
+        {
+          "columnName": "job",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#ClusteringSheet1!job"
+        },
+        {
+          "columnName": "marital",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#ClusteringSheet1!marital"
+        },
+        {
+          "columnName": "education",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#ClusteringSheet1!education"
+        },
+        {
+          "columnName": "default",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#ClusteringSheet1!default"
+        },
+        {
+          "columnName": "balance",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#ClusteringSheet1!balance"
+        },
+        {
+          "columnName": "housing",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#ClusteringSheet1!housing"
+        },
+        {
+          "columnName": "loan",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#ClusteringSheet1!loan"
+        },
+        {
+          "columnName": "contact",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#ClusteringSheet1!contact"
+        },
+        {
+          "columnName": "day",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#ClusteringSheet1!day"
+        },
+        {
+          "columnName": "month",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#ClusteringSheet1!month"
+        },
+        {
+          "columnName": "duration",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#ClusteringSheet1!duration"
+        },
+        {
+          "columnName": "campaign",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#ClusteringSheet1!campaign"
+        },
+        {
+          "columnName": "TimeBtwCampaigns",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#ClusteringSheet1!TimeBtwCampaigns"
+        },
+        {
+          "columnName": "NumOfCalls",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#ClusteringSheet1!NumOfCalls"
+        },
+        {
+          "columnName": "CampaignSuccess",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#ClusteringSheet1!CampaignSuccess"
+        },
+        {
+          "columnName": "PurchasedProduct",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#ClusteringSheet1!PurchasedProduct"
+        },
+        {
+          "columnName": "Prediction",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#ClusteringSheet1!Prediction"
+        },
+        {
+          "columnName": "ClusterID",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#ClusteringSheet1!ClusterID"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "age",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "job",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "marital",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "education",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "default",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "balance",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "housing",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "loan",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "contact",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "day",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "month",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "duration",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "campaign",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "TimeBtwCampaigns",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "NumOfCalls",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "CampaignSuccess",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "PurchasedProduct",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "Prediction",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "ClusterID",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 19
     }
   ],
   "advancedSchedulingInUse": true,
