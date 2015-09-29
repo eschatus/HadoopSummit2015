@@ -1,0 +1,128 @@
+{
+  "file": {
+    "uuid": "660ebaca-6e0f-4664-b333-864c36f8309c",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/Users Product Rating.upl",
+    "description": "",
+    "name": "Users Product Rating"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "TextFileFormat": [
+      "TEXT"
+    ],
+    "filter.page.does.split.creation": [
+      "false"
+    ],
+    "collectAdditionalFields": [
+      "false"
+    ],
+    "strictQuotes": [
+      "false"
+    ],
+    "csv.max-lines-per-record": [
+      "1"
+    ],
+    "escapeCharacter": [
+      ""
+    ],
+    "quoteCharacter": [
+      "\""
+    ],
+    "characterEncoding": [
+      "UTF-8"
+    ],
+    "recordSampleSize": [
+      "1000"
+    ],
+    "delimiter": [
+      ","
+    ],
+    "data.includes.header": [
+      "true"
+    ],
+    "detectColumnDefinition": [
+      "SELECT_PARSE_AUTO"
+    ],
+    "fileType": [
+      "CSV"
+    ],
+    "file": [
+      "/mnt/das-data/fileuploads/4491/AppMarket_BoughtApps_anon.csv"
+    ],
+    "GenericConfigurationImpl.temp-file-store": [
+      "04ca0ece-33bc-4ef1-af8a-b0f10442ea99"
+    ]
+  },
+  "dataStore": {
+    "path": "/.system/FileUploadDataStore.dst",
+    "uuid": "a8af2175-a948-4ecc-8902-4de95c0096fd"
+  },
+  "errorHandlingMode": "DROP_RECORD",
+  "maxLogErrors": 1000,
+  "maxPreviewRecords": 5000,
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "fields": [
+    {
+      "id": 61,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "ProductID",
+      "origin": "0",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 62,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "UserID",
+      "origin": "1",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 63,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "Rating",
+      "origin": "2",
+      "valueType": "{\"type\":\"FLOAT\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 64,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFileName",
+      "origin": "fileInfo.fileName",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 65,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFilePath",
+      "origin": "fileInfo.filePath",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 66,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasLastModified",
+      "origin": "fileInfo.lastModified",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    }
+  ]
+}
