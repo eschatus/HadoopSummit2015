@@ -252,6 +252,15 @@
       "sheetId": "098147db-c80c-40f4-8c9e-17b4fb5b78f6",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet2",
+      "sortTargetSheet": "Sheet2",
+      "topN": 10,
+      "sortKeys": [
+        {
+          "column": "Count",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Work_request_FileName",
