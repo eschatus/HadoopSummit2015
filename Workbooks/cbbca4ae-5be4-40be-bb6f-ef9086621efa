@@ -1,0 +1,39 @@
+{
+  "file": {
+    "uuid": "cbbca4ae-5be4-40be-bb6f-ef9086621efa",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/4 Recommendation/Demo.wbk",
+    "description": "",
+    "name": "Demo"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "minmaxmean.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "histograms.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Users_bought_Product",
+      "sheetId": "d5aa9052-c2c1-47e5-8e44-f5469840bbfb",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": true,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Users Product Rating.upl",
+        "uuid": "660ebaca-6e0f-4664-b333-864c36f8309c"
+      },
+      "columnStyles": []
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
