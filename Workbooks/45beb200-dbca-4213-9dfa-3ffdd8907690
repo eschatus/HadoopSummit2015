@@ -258,6 +258,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003dGROUPBY(#Sheet1!Work_request_FileName)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
         }
       ],
       "columnStyles": [
@@ -266,9 +272,15 @@
           "name": "Work_request_FileName",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
