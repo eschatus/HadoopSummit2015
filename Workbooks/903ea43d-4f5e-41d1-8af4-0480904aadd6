@@ -1,12 +1,14 @@
 {
   "file": {
     "uuid": "903ea43d-4f5e-41d1-8af4-0480904aadd6",
-    "path": "/Users/admin/.unsaved-configurations/unsaved 2015-09-29 18:39:56.wbk",
-    "name": "unsaved 2015-09-29 18:39:56"
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/clustersOfSuccess.wbk",
+    "description": "",
+    "name": "clustersOfSuccess"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
   "properties": {},
+  "hadoopProperties": "",
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
   "sheets": [
@@ -238,53 +240,53 @@
       "dataMiningConfiguration": {
         "parameters": {
           "dataMiningSheetType": "kMeans",
+          "numberOfIterations": "7",
+          "numberOfClusters": "3",
+          "sourceSheetName": "DecisionTreeSheet1",
           "includedColumns": [
             {
-              "id": "1fbe870774ff57df0e262bb602efb1ef",
-              "index": "0",
-              "name": "age",
               "type": {
                 "type": "INTEGER"
-              }
+              },
+              "name": "age",
+              "index": "0",
+              "id": "1fbe870774ff57df0e262bb602efb1ef"
             },
             {
-              "id": "6fd849e2ba741fbc3566c4bed791982f",
-              "index": "3",
-              "name": "education",
               "type": {
                 "type": "STRING"
-              }
+              },
+              "index": "3",
+              "id": "6fd849e2ba741fbc3566c4bed791982f",
+              "name": "education"
             },
             {
-              "id": "ff3b6d702e97a8c97191dc9c2dbec361",
-              "index": "5",
-              "name": "balance",
               "type": {
                 "type": "INTEGER"
-              }
+              },
+              "name": "balance",
+              "index": "5",
+              "id": "ff3b6d702e97a8c97191dc9c2dbec361"
             }
           ],
-          "sourceSheetName": "DecisionTreeSheet1",
-          "numberOfClusters": "3",
-          "numberOfIterations": "7",
           "normalizeNumericalColumns": "true",
           "numberOfIndicatorValues": "10"
         }
       },
       "artifactSheets": [
         {
-          "name": "ClusterHistograms_A",
+          "name": "ClusterHistograms_C",
           "sheet": {
-            "name": "artifactsheet_279c54c1a37e4f04b0c1a52025fcae52",
-            "sheetId": "57f6e86c-de8c-429d-a1d8-9226a89307f8",
+            "name": "artifactsheet_4683c8918e504e3ab485e52ccadd9c1f",
+            "sheetId": "b49230d6-139a-43fd-9222-e13c1993eeb7",
             "sheetType": "das.internal.FilterSheetType",
             "keep": true,
             "filterSourceSheet": "ClusteringSheet1",
-            "filterTargetSheet": "artifactsheet_279c54c1a37e4f04b0c1a52025fcae52",
+            "filterTargetSheet": "artifactsheet_4683c8918e504e3ab485e52ccadd9c1f",
             "filterArguments": [
               {
                 "filterExpression": "FORMULA",
-                "value": "#ClusteringSheet1!ClusterID \u003d\u003d \"A\"",
+                "value": "#ClusteringSheet1!ClusterID \u003d\u003d \"C\"",
                 "valueStatic": false,
                 "type": "ADVANCED_FORMULA"
               }
@@ -313,18 +315,18 @@
           }
         },
         {
-          "name": "ClusterHistograms_C",
+          "name": "ClusterHistograms_A",
           "sheet": {
-            "name": "artifactsheet_4683c8918e504e3ab485e52ccadd9c1f",
-            "sheetId": "b49230d6-139a-43fd-9222-e13c1993eeb7",
+            "name": "artifactsheet_279c54c1a37e4f04b0c1a52025fcae52",
+            "sheetId": "57f6e86c-de8c-429d-a1d8-9226a89307f8",
             "sheetType": "das.internal.FilterSheetType",
             "keep": true,
             "filterSourceSheet": "ClusteringSheet1",
-            "filterTargetSheet": "artifactsheet_4683c8918e504e3ab485e52ccadd9c1f",
+            "filterTargetSheet": "artifactsheet_279c54c1a37e4f04b0c1a52025fcae52",
             "filterArguments": [
               {
                 "filterExpression": "FORMULA",
-                "value": "#ClusteringSheet1!ClusterID \u003d\u003d \"C\"",
+                "value": "#ClusteringSheet1!ClusterID \u003d\u003d \"A\"",
                 "valueStatic": false,
                 "type": "ADVANCED_FORMULA"
               }
@@ -335,6 +337,6 @@
       ]
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
