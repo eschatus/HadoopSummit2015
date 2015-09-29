@@ -1,0 +1,268 @@
+{
+  "file": {
+    "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+    "description": "",
+    "name": "Bank Data"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "detectColumnDefinition": [
+      "SELECT_PARSE_AUTO"
+    ],
+    "data.includes.header": [
+      "true"
+    ],
+    "delimiter": [
+      ";"
+    ],
+    "recordSampleSize": [
+      "1000"
+    ],
+    "characterEncoding": [
+      "UTF-8"
+    ],
+    "quoteCharacter": [
+      "\"\""
+    ],
+    "escapeCharacter": [
+      ""
+    ],
+    "csv.max-lines-per-record": [
+      "1"
+    ],
+    "strictQuotes": [
+      "false"
+    ],
+    "collectAdditionalFields": [
+      "false"
+    ],
+    "filter.page.does.split.creation": [
+      "false"
+    ],
+    "TextFileFormat": [
+      "TEXT"
+    ],
+    "GenericConfigurationImpl.temp-file-store": [
+      "764adbb5-1e04-43b7-be3c-0745b5cbff50"
+    ],
+    "file": [
+      "/mnt/das-data/fileuploads/4494/bank.csv"
+    ],
+    "fileType": [
+      "CSV"
+    ]
+  },
+  "dataStore": {
+    "path": "/.system/FileUploadDataStore.dst",
+    "uuid": "a8af2175-a948-4ecc-8902-4de95c0096fd"
+  },
+  "errorHandlingMode": "DROP_RECORD",
+  "maxLogErrors": 1000,
+  "maxPreviewRecords": 5000,
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "fields": [
+    {
+      "id": 78,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "age",
+      "origin": "0",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 79,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "job",
+      "origin": "1",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 80,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "marital",
+      "origin": "2",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 81,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "education",
+      "origin": "3",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 82,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "default",
+      "origin": "4",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 83,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "balance",
+      "origin": "5",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 84,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "housing",
+      "origin": "6",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 85,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "loan",
+      "origin": "7",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 86,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "contact",
+      "origin": "8",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 87,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "day",
+      "origin": "9",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 88,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "month",
+      "origin": "10",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 89,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "duration",
+      "origin": "11",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 90,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "campaign",
+      "origin": "12",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 91,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "TimeBtwCampaigns",
+      "origin": "13",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 92,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "NumOfCalls",
+      "origin": "14",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 93,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "CampaignSuccess",
+      "origin": "15",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 94,
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "PurchasedProduct",
+      "origin": "16",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "id": 95,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFileName",
+      "origin": "fileInfo.fileName",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 96,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasFilePath",
+      "origin": "fileInfo.filePath",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "id": 97,
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "dasLastModified",
+      "origin": "fileInfo.lastModified",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    }
+  ]
+}
