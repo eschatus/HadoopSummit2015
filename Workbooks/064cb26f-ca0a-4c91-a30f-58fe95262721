@@ -1,0 +1,271 @@
+{
+  "file": {
+    "uuid": "064cb26f-ca0a-4c91-a30f-58fe95262721",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/4 Recommendation/Result.wbk",
+    "description": "",
+    "name": "Result"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "minmaxmean.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "histograms.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Users_bought_Product",
+      "sheetId": "55429408-3fd0-4477-a1db-f696f5af0f22",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": true,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Users Product Rating.upl",
+        "uuid": "660ebaca-6e0f-4664-b333-864c36f8309c"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "recommendationSheet1",
+      "sheetId": "5fb5a853-d45f-4706-add0-559fd5af7273",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "ratingColumn": {
+            "type": {
+              "type": "FLOAT"
+            },
+            "name": "Rating",
+            "index": "2",
+            "id": "Rating"
+          },
+          "itemIdColumn": {
+            "type": {
+              "type": "INTEGER"
+            },
+            "name": "ProductID",
+            "index": "0",
+            "id": "ProductID"
+          },
+          "userIdColumn": {
+            "type": {
+              "type": "INTEGER"
+            },
+            "name": "UserID",
+            "index": "1",
+            "id": "UserID"
+          },
+          "numberOfIterations": "7",
+          "lambda": "0.06499999761581421",
+          "numberOfHiddenFeatures": "7",
+          "filterTrainingData": "true",
+          "topN": "1",
+          "sourceSheetName": "Users_bought_Product",
+          "includedColumns": [
+            {
+              "type": {
+                "type": "INTEGER"
+              },
+              "name": "UserID",
+              "index": "1",
+              "id": "UserID"
+            },
+            {
+              "type": {
+                "type": "INTEGER"
+              },
+              "name": "ProductID",
+              "index": "0",
+              "id": "ProductID"
+            },
+            {
+              "type": {
+                "type": "FLOAT"
+              },
+              "name": "Rating",
+              "index": "2",
+              "id": "Rating"
+            }
+          ],
+          "dataMiningSheetType": "recommendation"
+        }
+      }
+    },
+    {
+      "name": "All_Products",
+      "sheetId": "2e47eb1e-0d70-4ac7-a495-d0160ba918d3",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/All Products.upl",
+        "uuid": "86459c49-c606-44a5-a6fb-864e0dec63b9"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "All_Users",
+      "sheetId": "c7cc0b96-6edf-46be-9a4a-4c7799920cd2",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/All Users.upl",
+        "uuid": "10317e84-5d6b-428e-900c-23712ace31ca"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "Joined",
+      "sheetId": "b1e58aa2-4573-4470-8680-29dddd6308c8",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "_joinCategory": "MULTI_JOIN",
+        "_joinPairs": [
+          {
+            "_joinType": "INNER",
+            "_sheet1": "recommendationSheet1",
+            "_sheet2": "All_Users",
+            "_joinColumns1": [
+              "UserId"
+            ],
+            "_joinColumns2": [
+              "UserID"
+            ]
+          },
+          {
+            "_joinType": "INNER",
+            "_sheet1": "recommendationSheet1",
+            "_sheet2": "All_Products",
+            "_joinColumns1": [
+              "TopItem1"
+            ],
+            "_joinColumns2": [
+              "ProductID"
+            ]
+          }
+        ],
+        "_sheetToIncludeColumns": {
+          "recommendationSheet1": [
+            "UserId",
+            "TopItem1",
+            "RatingScore1"
+          ],
+          "All_Users": [
+            "FirstName",
+            "LastName"
+          ],
+          "All_Products": [
+            "AppName"
+          ]
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "10b8e0f5f961a764bdf74b55aaa03716",
+          "width": 249,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "79958b1a3fd0c66e17beed168c39ab75",
+          "width": 336,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Result",
+      "sheetId": "82e48523-902c-49d2-a3a8-188ca7635e5d",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "UserId",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Joined!recommendationSheet1.UserId"
+        },
+        {
+          "columnName": "TopItem1",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Joined!recommendationSheet1.TopItem1"
+        },
+        {
+          "columnName": "AppName",
+          "columnId": "5",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Joined!All_Products.AppName"
+        },
+        {
+          "columnName": "RatingScore1",
+          "columnId": "2",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Joined!recommendationSheet1.RatingScore1"
+        },
+        {
+          "columnName": "FirstName",
+          "columnId": "3",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Joined!All_Users.FirstName"
+        },
+        {
+          "columnName": "LastName",
+          "columnId": "4",
+          "columnIndex": 5,
+          "formulaString": "\u003d#Joined!All_Users.LastName"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "UserId",
+          "width": 336,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "TopItem1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "RatingScore1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "FirstName",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "LastName",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "AppName",
+          "width": 249,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 6
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
