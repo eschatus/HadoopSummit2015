@@ -1,12 +1,14 @@
 {
   "file": {
     "uuid": "5a6db4cf-56dd-40e4-a719-8e0f69f4ca59",
-    "path": "/Users/admin/.unsaved-configurations/unsaved 2015-09-29 18:08:54.wbk",
-    "name": "unsaved 2015-09-29 18:08:54"
+    "path": "/Tutorial Click Path/datapre.wbk",
+    "description": "",
+    "name": "datapre"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
+  "hadoopProperties": "",
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
   "sheets": [
@@ -15,6 +17,9 @@
       "sheetId": "cbd199a5-ebc5-43ce-8f74-bd2eed8602c2",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "datasource": {
         "path": "/Tutorial Click Path/Clickstream Data.upl",
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
@@ -26,6 +31,9 @@
       "sheetId": "01de862b-3912-4794-8b9e-67d66e7e8afc",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "datasource": {
         "path": "/Tutorial Click Path/Customer Profile.upl",
         "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
@@ -73,6 +81,6 @@
       "columnStyles": []
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
