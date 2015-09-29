@@ -15,6 +15,18 @@
       "sheetId": "cd92a7be-77f0-4983-8c7f-4c7ccac947b6",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "filterSourceSheet": "Clickstream_Data",
+      "filterTargetSheet": "Clickstream_Data",
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "status",
+          "filterExpression": "EQUALS",
+          "value": "200",
+          "valueStatic": true,
+          "type": "CONSTANT"
+        }
+      ],
       "datasource": {
         "path": "/Tutorial Click Path/Clickstream Data.upl",
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
