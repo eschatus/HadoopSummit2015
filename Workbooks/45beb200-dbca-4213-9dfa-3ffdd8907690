@@ -266,7 +266,7 @@
           "columnName": "Work_request_FileName",
           "columnId": "0",
           "columnIndex": 0,
-          "formulaString": "\u003dGROUPBY(#Sheet1!Work_request_FileName)"
+          "formulaString": "\u003dGROUPBY(#Sheet1!Work_request_FileName+\"\")"
         },
         {
           "columnName": "Count",
@@ -279,7 +279,7 @@
         {
           "columnId": "0",
           "name": "Work_request_FileName",
-          "width": 100,
+          "width": 336,
           "thousandSeparator": true
         },
         {
