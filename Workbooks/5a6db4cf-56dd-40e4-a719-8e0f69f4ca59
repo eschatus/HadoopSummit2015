@@ -20,6 +20,17 @@
         "uuid": "a05ba9fb-65ca-4e88-9fbf-5cd3b9f69d0f"
       },
       "columnStyles": []
+    },
+    {
+      "name": "Customer_Profile",
+      "sheetId": "01de862b-3912-4794-8b9e-67d66e7e8afc",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Tutorial Click Path/Customer Profile.upl",
+        "uuid": "29ff4685-19c7-43d5-85e0-3dfccab29b07"
+      },
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
