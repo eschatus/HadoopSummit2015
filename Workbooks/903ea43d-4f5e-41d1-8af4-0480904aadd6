@@ -64,12 +64,12 @@
               }
             },
             {
-              "id": "default",
               "index": "4",
               "name": "default",
               "type": {
                 "type": "STRING"
-              }
+              },
+              "id": "default"
             },
             {
               "id": "balance",
@@ -96,12 +96,12 @@
               }
             },
             {
-              "id": "contact",
-              "index": "8",
-              "name": "contact",
               "type": {
                 "type": "STRING"
-              }
+              },
+              "name": "contact",
+              "id": "contact",
+              "index": "8"
             },
             {
               "id": "day",
@@ -136,12 +136,12 @@
               }
             },
             {
-              "id": "TimeBtwCampaigns",
               "index": "13",
               "name": "TimeBtwCampaigns",
               "type": {
                 "type": "INTEGER"
-              }
+              },
+              "id": "TimeBtwCampaigns"
             },
             {
               "id": "NumOfCalls",
@@ -170,6 +170,50 @@
           ],
           "sourceSheetName": "Bank_Data",
           "maximumCardinality": "10000"
+        }
+      }
+    },
+    {
+      "name": "DecisionTreeSheet1",
+      "sheetId": "14037174-272f-4177-90aa-b3140cac70c4",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "decisionTree",
+          "includedColumns": [
+            {
+              "id": "TimeBtwCampaigns",
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "NumOfCalls",
+              "index": "14",
+              "name": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            }
+          ],
+          "sourceSheetName": "Bank_Data",
+          "maximumTreeDepth": "7",
+          "pruning": "true",
+          "minimalProportionInNode": "0.001",
+          "minimalNodeSize": "2",
+          "determinedNth": "0.25",
+          "targetAttributeColumn": {
+            "id": "CampaignSuccess",
+            "index": "15",
+            "name": "CampaignSuccess",
+            "type": {
+              "type": "STRING"
+            }
+          }
         }
       }
     }
