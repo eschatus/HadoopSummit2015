@@ -178,42 +178,54 @@
       "sheetId": "14037174-272f-4177-90aa-b3140cac70c4",
       "sheetType": "das.internal.DataMiningSheetType",
       "keep": true,
+      "filterSourceSheet": "DecisionTreeSheet1",
+      "filterTargetSheet": "DecisionTreeSheet1",
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "Prediction",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "success",
+          "valueStatic": true,
+          "type": "CONSTANT"
+        }
+      ],
       "columnStyles": [],
       "dataMiningConfiguration": {
         "parameters": {
           "dataMiningSheetType": "decisionTree",
-          "includedColumns": [
-            {
-              "id": "TimeBtwCampaigns",
-              "index": "13",
-              "name": "TimeBtwCampaigns",
-              "type": {
-                "type": "INTEGER"
-              }
-            },
-            {
-              "id": "NumOfCalls",
-              "index": "14",
-              "name": "NumOfCalls",
-              "type": {
-                "type": "INTEGER"
-              }
-            }
-          ],
-          "sourceSheetName": "Bank_Data",
-          "maximumTreeDepth": "7",
-          "pruning": "true",
-          "minimalProportionInNode": "0.001",
-          "minimalNodeSize": "2",
-          "determinedNth": "0.25",
           "targetAttributeColumn": {
-            "id": "CampaignSuccess",
             "index": "15",
+            "id": "CampaignSuccess",
             "name": "CampaignSuccess",
             "type": {
               "type": "STRING"
             }
-          }
+          },
+          "determinedNth": "0.25",
+          "minimalNodeSize": "2",
+          "minimalProportionInNode": "0.001",
+          "pruning": "true",
+          "maximumTreeDepth": "7",
+          "sourceSheetName": "Bank_Data",
+          "includedColumns": [
+            {
+              "type": {
+                "type": "INTEGER"
+              },
+              "name": "TimeBtwCampaigns",
+              "index": "13",
+              "id": "TimeBtwCampaigns"
+            },
+            {
+              "name": "NumOfCalls",
+              "index": "14",
+              "id": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            }
+          ]
         }
       }
     }
