@@ -1,0 +1,195 @@
+{
+  "file": {
+    "uuid": "2bce9134-54bd-4e12-9864-72179ac5aa0e",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/3 Decision Tree/Result.wbk",
+    "description": "",
+    "name": "Result"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histograms.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "minmaxmean.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Bank_data",
+      "sheetId": "7f1e31bf-2349-4bcb-b317-46ab1c701d95",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "DecisionTreeSheet1",
+      "sheetId": "6c849c5e-70a9-4612-9481-ddce6e74becf",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "decisionTree",
+          "includedColumns": [
+            {
+              "id": "age",
+              "index": "0",
+              "name": "age",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "job",
+              "index": "1",
+              "name": "job",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "marital",
+              "index": "2",
+              "name": "marital",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "education",
+              "index": "3",
+              "name": "education",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "default",
+              "index": "4",
+              "name": "default",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "balance",
+              "index": "5",
+              "name": "balance",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "housing",
+              "index": "6",
+              "name": "housing",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "loan",
+              "index": "7",
+              "name": "loan",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "contact",
+              "index": "8",
+              "name": "contact",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "day",
+              "index": "9",
+              "name": "day",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "month",
+              "index": "10",
+              "name": "month",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "duration",
+              "index": "11",
+              "name": "duration",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "campaign",
+              "index": "12",
+              "name": "campaign",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "TimeBtwCampaigns",
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "NumOfCalls",
+              "index": "14",
+              "name": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "CampaignSuccess",
+              "index": "15",
+              "name": "CampaignSuccess",
+              "type": {
+                "type": "STRING"
+              }
+            }
+          ],
+          "sourceSheetName": "Bank_data",
+          "maximumTreeDepth": "15",
+          "pruning": "true",
+          "minimalProportionInNode": "0.0010",
+          "minimalNodeSize": "2",
+          "determinedNth": "0.25",
+          "targetAttributeColumn": {
+            "id": "PurchasedProduct",
+            "index": "16",
+            "name": "PurchasedProduct",
+            "type": {
+              "type": "STRING"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
