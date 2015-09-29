@@ -224,6 +224,12 @@
           "columnId": "7",
           "columnIndex": 7,
           "formulaString": "\u003dLISTELEMENT(#Path;SIZE(#Path)-1)"
+        },
+        {
+          "columnName": "I",
+          "columnId": "9",
+          "columnIndex": 8,
+          "formulaString": "\u003dLISTELEMENT(#Path;0)"
         }
       ],
       "columnStyles": [
@@ -280,9 +286,15 @@
           "name": "ExitPage",
           "width": 185,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "I",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 9
+      "nextColumnId": 10
     },
     {
       "name": "UserSessionStats",
