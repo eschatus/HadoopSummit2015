@@ -1,0 +1,39 @@
+{
+  "file": {
+    "uuid": "ff63ee1f-9d32-4b83-af3b-c105e661483b",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/1 Column Dependencies/Demo.wbk",
+    "description": "",
+    "name": "Demo"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histograms.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "minmaxmean.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Bank_data",
+      "sheetId": "8e29c780-804f-4018-ace7-678a53ad0095",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": true,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
