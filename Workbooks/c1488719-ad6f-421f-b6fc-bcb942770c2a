@@ -1,0 +1,303 @@
+{
+  "file": {
+    "uuid": "c1488719-ad6f-421f-b6fc-bcb942770c2a",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/1 Column Dependencies/Result.wbk",
+    "description": "",
+    "name": "Result"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histograms.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "minmaxmean.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Bank_data",
+      "sheetId": "276fa2e9-60f2-4e14-a5a0-87144ee408b5",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "columnDependenciesAll",
+      "sheetId": "2780f0f4-6814-4397-a73b-1adc40a797b2",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "sortSourceSheet": "columnDependenciesAll",
+      "sortTargetSheet": "columnDependenciesAll",
+      "sortKeys": [
+        {
+          "column": "ColumnDependencyValue",
+          "sortOrder": "DESC"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "9dac9a2c132e627d12b0121a585728fb",
+          "width": 152,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2a375627d38e0714ac18028bd4212028",
+          "width": 186,
+          "thousandSeparator": true
+        }
+      ],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "includedColumns": [
+            {
+              "name": "age",
+              "id": "age",
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "0"
+            },
+            {
+              "name": "job",
+              "id": "job",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "1"
+            },
+            {
+              "name": "marital",
+              "id": "marital",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "2"
+            },
+            {
+              "name": "education",
+              "id": "education",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "3"
+            },
+            {
+              "name": "default",
+              "id": "default",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "4"
+            },
+            {
+              "name": "balance",
+              "id": "balance",
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "5"
+            },
+            {
+              "name": "housing",
+              "id": "housing",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "6"
+            },
+            {
+              "name": "loan",
+              "id": "loan",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "7"
+            },
+            {
+              "name": "contact",
+              "id": "contact",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "8"
+            },
+            {
+              "name": "day",
+              "id": "day",
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "9"
+            },
+            {
+              "name": "month",
+              "id": "month",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "10"
+            },
+            {
+              "name": "duration",
+              "id": "duration",
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "11"
+            },
+            {
+              "index": "12",
+              "name": "campaign",
+              "id": "campaign",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "id": "TimeBtwCampaigns"
+            },
+            {
+              "name": "NumOfCalls",
+              "id": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              },
+              "index": "14"
+            },
+            {
+              "name": "CampaignSuccess",
+              "id": "CampaignSuccess",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "15"
+            },
+            {
+              "name": "PurchasedProduct",
+              "id": "PurchasedProduct",
+              "type": {
+                "type": "STRING"
+              },
+              "index": "16"
+            }
+          ],
+          "sourceSheetName": "Bank_data",
+          "dataMiningSheetType": "columnDependencies"
+        }
+      }
+    },
+    {
+      "name": "columnDependencyPurchased",
+      "sheetId": "f6f73ca5-019b-4362-b133-a5a994a09a70",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "filterSourceSheet": "columnDependencyPurchased",
+      "filterTargetSheet": "columnDependencyPurchased",
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "Column2",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "PurchasedProduct",
+          "valueStatic": true,
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "Column1",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#columnDependenciesAll!Column1"
+        },
+        {
+          "columnName": "Column2",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#columnDependenciesAll!Column2"
+        },
+        {
+          "columnName": "ColumnDependencyValue",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#columnDependenciesAll!ColumnDependencyValue"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "Column1",
+          "width": 193,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Column2",
+          "width": 152,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ColumnDependencyValue",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 3
+    },
+    {
+      "name": "ColumnDependencyIFG",
+      "sheetId": "d4b06f3a-7f49-43fb-87b8-b37ffd31213a",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ColumnDependencyValue",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#columnDependenciesAll!ColumnDependencyValue"
+        },
+        {
+          "columnName": "ColumnPair",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dCONCAT(#columnDependenciesAll!Column1;\"-\";#columnDependenciesAll!Column2)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ColumnDependencyValue",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ColumnPair",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
