@@ -1,0 +1,317 @@
+{
+  "file": {
+    "uuid": "f805159d-91ac-470d-a6fc-37ab4ee04b2e",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/2 Clustering/Result for Unsuccessful.wbk",
+    "description": "",
+    "name": "Result for Unsuccessful"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histograms.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "minmaxmean.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Bank_data",
+      "sheetId": "aadba69c-1448-4599-af2c-136748e31e78",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": true,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "ClusteringSheet1",
+      "sheetId": "95818192-7b9f-47fb-9f53-8aa61eae684b",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "kMeans",
+          "includedColumns": [
+            {
+              "id": "TimeBtwCampaigns",
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "NumOfCalls",
+              "index": "14",
+              "name": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "CampaignSuccess",
+              "index": "15",
+              "name": "CampaignSuccess",
+              "type": {
+                "type": "STRING"
+              }
+            }
+          ],
+          "sourceSheetName": "Bank_data",
+          "numberOfClusters": "2",
+          "numberOfIterations": "7",
+          "normalizeNumericalColumns": "true",
+          "numberOfIndicatorValues": "10",
+          "numberOfFolds": "1"
+        }
+      }
+    },
+    {
+      "name": "Purchased",
+      "sheetId": "110aee9f-d35d-42c0-b1c3-8ff022f547b9",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ClusterID",
+          "columnId": "1",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!ClusterID)"
+        },
+        {
+          "columnName": "PurchasedProduct",
+          "columnId": "2",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!PurchasedProduct)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "3",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "1",
+          "name": "ClusterID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "PurchasedProduct",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 4
+    },
+    {
+      "name": "Average",
+      "sheetId": "40f62944-7938-431a-99bf-f9bc319382dd",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ClusterID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!ClusterID)"
+        },
+        {
+          "columnName": "Average_TimeBtwCampaigns",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!TimeBtwCampaigns)"
+        },
+        {
+          "columnName": "Average_NumOfCalls",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!NumOfCalls)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ClusterID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Average_TimeBtwCampaigns",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "Average_NumOfCalls",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 3
+    },
+    {
+      "name": "Marital",
+      "sheetId": "f656d50b-b7ce-4def-bbce-bc6ea6a0a3ae",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "marital",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!marital)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "marital",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "Housing",
+      "sheetId": "3c80e1cf-f7b6-4bf4-a4d0-b3335c4cdec5",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "housing",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!housing)"
+        },
+        {
+          "columnName": "housingCount",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dgroupcount()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "housing",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "housingCount",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "Loan",
+      "sheetId": "8c9d6b97-5ab6-4f9a-adaa-d0a3e8a885aa",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "loan",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!loan)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "loan",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "Default",
+      "sheetId": "aebe265f-e28b-4584-9896-84c8d9603ebe",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "default",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Bank_data!default)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "default",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
