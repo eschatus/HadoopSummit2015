@@ -9,7 +9,23 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "Joined",
+      "sheetId": "c92da00d-ce1d-41fe-b7a7-47c06f81dad0",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": true,
+      "referencedSheet": {
+        "name": "Joined",
+        "sheetId": "6aabfe9c-73d1-4be8-971e-c9c7e0be1244",
+        "workbook": {
+          "path": "/Tutorial Click Path/Clickstream Analysis.wbk",
+          "uuid": "d5d19664-5cc3-48c5-8675-72bb8037aab0"
+        }
+      },
+      "columnStyles": []
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
