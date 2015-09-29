@@ -9,7 +9,19 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "Bank_Data",
+      "sheetId": "abbaf788-63ca-4d86-a0b7-6f7acee46c34",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
