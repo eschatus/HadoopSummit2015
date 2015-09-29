@@ -20,6 +20,158 @@
         "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
       },
       "columnStyles": []
+    },
+    {
+      "name": "columnDependenciesSheet1",
+      "sheetId": "36f6e7ec-12ba-40f8-8219-ffd7bec455eb",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "columnDependencies",
+          "includedColumns": [
+            {
+              "id": "age",
+              "index": "0",
+              "name": "age",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "job",
+              "index": "1",
+              "name": "job",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "marital",
+              "index": "2",
+              "name": "marital",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "education",
+              "index": "3",
+              "name": "education",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "default",
+              "index": "4",
+              "name": "default",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "balance",
+              "index": "5",
+              "name": "balance",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "housing",
+              "index": "6",
+              "name": "housing",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "loan",
+              "index": "7",
+              "name": "loan",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "contact",
+              "index": "8",
+              "name": "contact",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "day",
+              "index": "9",
+              "name": "day",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "month",
+              "index": "10",
+              "name": "month",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "duration",
+              "index": "11",
+              "name": "duration",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "campaign",
+              "index": "12",
+              "name": "campaign",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "TimeBtwCampaigns",
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "NumOfCalls",
+              "index": "14",
+              "name": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "CampaignSuccess",
+              "index": "15",
+              "name": "CampaignSuccess",
+              "type": {
+                "type": "STRING"
+              }
+            },
+            {
+              "id": "PurchasedProduct",
+              "index": "16",
+              "name": "PurchasedProduct",
+              "type": {
+                "type": "STRING"
+              }
+            }
+          ],
+          "sourceSheetName": "Bank_Data",
+          "maximumCardinality": "10000"
+        }
+      }
     }
   ],
   "advancedSchedulingInUse": false,
