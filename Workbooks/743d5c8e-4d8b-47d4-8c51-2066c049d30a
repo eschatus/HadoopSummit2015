@@ -1,0 +1,341 @@
+{
+  "file": {
+    "uuid": "743d5c8e-4d8b-47d4-8c51-2066c049d30a",
+    "path": "/Users/admin/Applications/Smart Analytics Tutorial/2 Clustering/Result for Successful.wbk",
+    "description": "",
+    "name": "Result for Successful"
+  },
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {
+    "histograms.generation": [
+      "false"
+    ],
+    "cardinalities.generation": [
+      "false"
+    ],
+    "minmaxmean.generation": [
+      "false"
+    ]
+  },
+  "hadoopProperties": "",
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Bank_data",
+      "sheetId": "4aae10c1-af97-4440-8504-1d7b948efd85",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Smart Analytics Tutorial/Bank Data.upl",
+        "uuid": "3e59edb2-80b1-4573-8066-ed25229eeb77"
+      },
+      "columnStyles": []
+    },
+    {
+      "name": "Marital",
+      "sheetId": "ac21163c-0c0a-47be-8e91-dceedebd1cf6",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ClusterID",
+          "columnId": "1",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!ClusterID)"
+        },
+        {
+          "columnName": "marital",
+          "columnId": "2",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!marital)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "3",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "1",
+          "name": "ClusterID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "marital",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 4
+    },
+    {
+      "name": "Default",
+      "sheetId": "1fa0519d-1bf9-4cd9-847b-d64d9f21195c",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "default",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Bank_data!default)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "default",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "HousingLoan",
+      "sheetId": "d920b55f-b074-4702-bd4b-281e2aea566c",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "housing",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Bank_data!housing)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "housing",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "PersLoan",
+      "sheetId": "5148324d-1362-40ab-9e45-46ce27c0a5ef",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "loan",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Bank_data!loan)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "loan",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "Education",
+      "sheetId": "df177e04-7f14-46a4-9276-2e8028b51006",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "education",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Bank_data!education)"
+        },
+        {
+          "columnName": "Count",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "education",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Count",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 2
+    },
+    {
+      "name": "ClusteringSheet1",
+      "sheetId": "386840a4-3325-4525-81ca-05bba39c31a2",
+      "sheetType": "das.internal.DataMiningSheetType",
+      "keep": true,
+      "columnStyles": [],
+      "dataMiningConfiguration": {
+        "parameters": {
+          "dataMiningSheetType": "kMeans",
+          "includedColumns": [
+            {
+              "id": "TimeBtwCampaigns",
+              "index": "13",
+              "name": "TimeBtwCampaigns",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "NumOfCalls",
+              "index": "14",
+              "name": "NumOfCalls",
+              "type": {
+                "type": "INTEGER"
+              }
+            },
+            {
+              "id": "CampaignSuccess",
+              "index": "15",
+              "name": "CampaignSuccess",
+              "type": {
+                "type": "STRING"
+              }
+            }
+          ],
+          "sourceSheetName": "Bank_data",
+          "numberOfClusters": "2",
+          "numberOfIterations": "7",
+          "normalizeNumericalColumns": "true",
+          "numberOfIndicatorValues": "10",
+          "numberOfFolds": "1"
+        }
+      }
+    },
+    {
+      "name": "AverageForClusters",
+      "sheetId": "6d1ac3b1-87e0-4158-8bf3-0d970f855fe2",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ClusterID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#ClusteringSheet1!ClusterID)"
+        },
+        {
+          "columnName": "Average_campaign",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!campaign)"
+        },
+        {
+          "columnName": "Average_balance",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!campaign)"
+        },
+        {
+          "columnName": "Average_TimeBtwCampaigns",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!TimeBtwCampaigns)"
+        },
+        {
+          "columnName": "Average_NumOfCalls",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPAVERAGE(#ClusteringSheet1!NumOfCalls)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ClusterID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "Average_campaign",
+          "width": 280,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "Average_balance",
+          "width": 236,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "Average_TimeBtwCampaigns",
+          "width": 339,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "Average_NumOfCalls",
+          "width": 349,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 5
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
