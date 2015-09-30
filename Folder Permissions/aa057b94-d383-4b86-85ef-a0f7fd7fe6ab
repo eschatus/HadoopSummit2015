@@ -10,7 +10,7 @@
       "id": 1,
       "name": "Business user",
       "flags": {
-        "readable": false,
+        "readable": true,
         "writable": false
       }
     }
