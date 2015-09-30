@@ -39,6 +39,12 @@
           "columnId": "1",
           "columnIndex": 1,
           "formulaString": "\u003dCOPY(#FUserActions!performer_roles)"
+        },
+        {
+          "columnName": "C",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dJSON_ELEMENT(#performer_roles;0)"
         }
       ],
       "columnStyles": [
@@ -53,9 +59,15 @@
           "name": "performer_roles",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "C",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 2
+      "nextColumnId": 3
     }
   ],
   "advancedSchedulingInUse": false,
