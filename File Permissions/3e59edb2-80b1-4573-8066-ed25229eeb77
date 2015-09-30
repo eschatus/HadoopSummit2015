@@ -13,7 +13,7 @@
       "name": "Data Admins",
       "flags": {
         "executable": false,
-        "readable": false,
+        "readable": true,
         "writable": false
       }
     }
