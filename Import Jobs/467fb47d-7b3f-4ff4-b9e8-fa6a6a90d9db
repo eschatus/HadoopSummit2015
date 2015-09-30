@@ -1,21 +1,518 @@
 {
   "file": {
     "uuid": "467fb47d-7b3f-4ff4-b9e8-fa6a6a90d9db",
-    "path": "/.system/9f2a11b3-004e-45ad-bece-8c82b11f419f.imp",
+    "path": "/Users/admin/Applications/Tutorial Click Path/FUserActions.upl",
     "description": "",
-    "name": "9f2a11b3-004e-45ad-bece-8c82b11f419f"
+    "name": "FUserActions"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
   "properties": {
     "GenericConfigurationImpl.temp-file-store": [
       "43b0f864-3330-436e-b7bf-de681c48bbfa"
+    ],
+    "file": [
+      "/Users/adamg/Datameer-Summit-2015/das-data/temp/d9df6623-47db-4f3a-a3ce-2367be355b89-useraction.log"
+    ],
+    "fileType": [
+      "JSON"
+    ],
+    "characterEncoding": [
+      "UTF-8"
+    ],
+    "recordSampleSize": [
+      "1000"
+    ],
+    "rootPath": [
+      ""
+    ],
+    "maxTraverseDepth": [
+      "1"
+    ],
+    "alwaysIncludePaths": [
+      ""
+    ],
+    "skipExpandPaths": [
+      ""
+    ],
+    "ignorePaths": [
+      ""
+    ],
+    "collect_additional_fields": [
+      "false"
+    ],
+    "unwrap_root_array": [
+      "false"
+    ],
+    "ignore_surrounding_text": [
+      "false"
+    ],
+    "filter.page.does.split.creation": [
+      "false"
+    ],
+    "TextFileFormat": [
+      "TEXT_SCANNER"
     ]
+  },
+  "hadoopProperties": "",
+  "dataStore": {
+    "path": "/.system/FileUploadDataStore.dst",
+    "uuid": "a8af2175-a948-4ecc-8902-4de95c0096fd"
   },
   "errorHandlingMode": "DROP_RECORD",
   "maxLogErrors": 1000,
   "maxPreviewRecords": 5000,
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "fields": []
+  "fields": [
+    {
+      "pattern": "yyyy-MM-dd HH:mm:ss",
+      "acceptEmpty": false,
+      "name": "timestamp",
+      "origin": "timestamp",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "action_type",
+      "origin": "action-type",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "action",
+      "origin": "action",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "performed_by_user",
+      "origin": "performed-by-user",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": false,
+      "name": "performer_roles",
+      "origin": "performer-roles",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "ip_address",
+      "origin": "ip-address",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "root_uuid",
+      "origin": "root-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "file_uuid",
+      "origin": "file-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "file_path",
+      "origin": "file-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "folder_path",
+      "origin": "folder-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "group_name",
+      "origin": "group-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "read_permission",
+      "origin": "read-permission",
+      "valueType": "{\"type\":\"BOOLEAN\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "write_permission",
+      "origin": "write-permission",
+      "valueType": "{\"type\":\"BOOLEAN\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execute_permission",
+      "origin": "execute-permission",
+      "valueType": "{\"type\":\"BOOLEAN\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "shared_public",
+      "origin": "shared-public",
+      "valueType": "{\"type\":\"BOOLEAN\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "new_owner_name",
+      "origin": "new-owner-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "user_name",
+      "origin": "user-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "role_name",
+      "origin": "role-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_id",
+      "origin": "execution-id",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_type",
+      "origin": "execution-type",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_triggered_by",
+      "origin": "execution-triggered-by",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_job_schedule",
+      "origin": "execution-job-schedule",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_configuration_path",
+      "origin": "execution-configuration-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_configuration_uuid",
+      "origin": "execution-configuration-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_job_status",
+      "origin": "execution-job-status",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "execution_job_user",
+      "origin": "execution-job-user",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "data_uuid",
+      "origin": "data-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "data_path",
+      "origin": "data-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_uuid",
+      "origin": "workbook-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_path",
+      "origin": "workbook-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_sheet_name",
+      "origin": "workbook-sheet-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_sheet_column_name",
+      "origin": "workbook-sheet-column-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_sheet_column_index",
+      "origin": "workbook-sheet-column-index",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "datasource_uuid",
+      "origin": "datasource-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "datasource_path",
+      "origin": "datasource-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "workbook_join_sheets",
+      "origin": "workbook-join-sheets",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "application_uuid",
+      "origin": "application-uuid",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "application_path",
+      "origin": "application-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "old_name",
+      "origin": "old-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "old_path",
+      "origin": "old-path",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "connection_id",
+      "origin": "connection-id",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "connection_name",
+      "origin": "connection-name",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "connection_type_id",
+      "origin": "connection-type-id",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "executions_that_get_triggered",
+      "origin": "executions-that-get-triggered",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "pattern": "",
+      "acceptEmpty": true,
+      "name": "file_type_id",
+      "origin": "file-type-id",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": true,
+      "version": 3
+    },
+    {
+      "acceptEmpty": false,
+      "name": "dasFileName",
+      "origin": "fileInfo.fileName",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "acceptEmpty": false,
+      "name": "dasFilePath",
+      "origin": "fileInfo.filePath",
+      "valueType": "{\"type\":\"STRING\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "acceptEmpty": false,
+      "name": "dasLastModified",
+      "origin": "fileInfo.lastModified",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "acceptEmpty": false,
+      "name": "dasJobExecutionId",
+      "origin": "jobexecutionInfo.id",
+      "valueType": "{\"type\":\"INTEGER\"}",
+      "include": false,
+      "version": 3
+    },
+    {
+      "acceptEmpty": false,
+      "name": "dasJobExecutionStartTime",
+      "origin": "jobexecutionInfo.starttime",
+      "valueType": "{\"type\":\"DATE\"}",
+      "include": false,
+      "version": 3
+    }
+  ],
+  "outputPartitionDefinition": {
+    "dateFormat": "yyyyMMddHH",
+    "dateGenerator": "\u003d(#timestamp)"
+  }
 }
