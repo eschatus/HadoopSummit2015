@@ -1,0 +1,21 @@
+{
+  "id": 182,
+  "owner": "admin",
+  "permissionOfOthers": {
+    "executable": false,
+    "readable": false,
+    "writable": false
+  },
+  "shared": false,
+  "groupPermissions": [
+    {
+      "id": 26,
+      "name": "Data Admins",
+      "flags": {
+        "executable": false,
+        "readable": false,
+        "writable": false
+      }
+    }
+  ]
+}
