@@ -1,0 +1,18 @@
+{
+  "id": 35,
+  "owner": "admin",
+  "permissionOfOthers": {
+    "readable": false,
+    "writable": false
+  },
+  "groupPermissions": [
+    {
+      "id": 1,
+      "name": "Business user",
+      "flags": {
+        "readable": false,
+        "writable": false
+      }
+    }
+  ]
+}
