@@ -198,6 +198,15 @@
       "sheetId": "df18a821-8c36-482c-8476-31690e812b73",
       "sheetType": "das.internal.FormulaSheetType",
       "keep": true,
+      "sortSourceSheet": "Sheet2",
+      "sortTargetSheet": "Sheet2",
+      "topN": 10,
+      "sortKeys": [
+        {
+          "column": "Count",
+          "sortOrder": "DESC"
+        }
+      ],
       "formulas": [
         {
           "columnName": "Customer_Profile_Email",
