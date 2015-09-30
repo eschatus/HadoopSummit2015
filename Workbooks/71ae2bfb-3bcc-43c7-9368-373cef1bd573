@@ -139,6 +139,17 @@
         }
       ],
       "nextColumnId": 8
+    },
+    {
+      "name": "Customer_Profile",
+      "sheetId": "0969eab4-6f69-47d4-b7fb-1f4cc9587b4f",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Tutorial Click Path/Customer Profile.upl",
+        "uuid": "65b59956-d8bb-4749-8b08-a2f2510752d3"
+      },
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
