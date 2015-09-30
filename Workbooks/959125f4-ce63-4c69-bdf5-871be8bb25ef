@@ -9,7 +9,20 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "FUserActions",
+      "sheetId": "9909df1b-8969-4cb6-92eb-4f0df93bbd3b",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Tutorial Click Path/FUserActions.upl",
+        "uuid": "467fb47d-7b3f-4ff4-b9e8-fa6a6a90d9db"
+      },
+      "columnStyles": [],
+      "partitionSelectionExpression": "$partition \u003e\u003d ASDATE(\"22-06-2015 13:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\") \u0026\u0026 $partition \u003c\u003d ASDATE(\"22-06-2015 18:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\")"
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
