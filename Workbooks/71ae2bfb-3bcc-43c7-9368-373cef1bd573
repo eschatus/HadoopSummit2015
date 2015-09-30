@@ -1,12 +1,14 @@
 {
   "file": {
     "uuid": "71ae2bfb-3bcc-43c7-9368-373cef1bd573",
-    "path": "/Users/admin/.unsaved-configurations/unsaved 2015-09-30 12:16:05.wbk",
-    "name": "unsaved 2015-09-30 12:16:05"
+    "path": "/Users/admin/Applications/Tutorial Click Path/topusers.wbk",
+    "description": "",
+    "name": "topusers"
   },
-  "pullType": "MANUALLY",
+  "pullType": "WHEN_NEW_DATA_COMES_IN",
   "minKeepCount": 1,
   "properties": {},
+  "hadoopProperties": "",
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
   "sheets": [
@@ -15,6 +17,9 @@
       "sheetId": "bce60104-9535-49c5-aa34-c10144ae9631",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "filterSourceSheet": "Clickstream_Data",
       "filterTargetSheet": "Clickstream_Data",
       "connector": "AND",
@@ -37,7 +42,7 @@
       "name": "Sheet1",
       "sheetId": "e8716b63-ac5a-4daf-9af1-1abf28835d87",
       "sheetType": "das.internal.FormulaSheetType",
-      "keep": true,
+      "keep": false,
       "formulas": [
         {
           "columnName": "remoteHost",
@@ -145,6 +150,9 @@
       "sheetId": "0969eab4-6f69-47d4-b7fb-1f4cc9587b4f",
       "sheetType": "das.internal.DataSourceSheetType",
       "keep": false,
+      "runTriggeringConfiguration": {
+        "_runTrigger": true
+      },
       "datasource": {
         "path": "/Users/admin/Applications/Tutorial Click Path/Customer Profile.upl",
         "uuid": "65b59956-d8bb-4749-8b08-a2f2510752d3"
@@ -238,6 +246,6 @@
       "nextColumnId": 2
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
