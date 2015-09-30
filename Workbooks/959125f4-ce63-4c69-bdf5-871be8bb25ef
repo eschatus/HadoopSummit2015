@@ -33,6 +33,12 @@
           "columnId": "0",
           "columnIndex": 0,
           "formulaString": "\u003d#FUserActions!performed_by_user"
+        },
+        {
+          "columnName": "performer_roles",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dCOPY(#FUserActions!performer_roles)"
         }
       ],
       "columnStyles": [
@@ -41,9 +47,15 @@
           "name": "performed_by_user",
           "width": 100,
           "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "performer_roles",
+          "width": 100,
+          "thousandSeparator": true
         }
       ],
-      "nextColumnId": 1
+      "nextColumnId": 2
     }
   ],
   "advancedSchedulingInUse": false,
