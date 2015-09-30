@@ -21,6 +21,29 @@
       },
       "columnStyles": [],
       "partitionSelectionExpression": "$partition \u003e\u003d ASDATE(\"22-06-2015 13:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\") \u0026\u0026 $partition \u003c\u003d ASDATE(\"22-06-2015 18:00:00.000\"; \"dd-MM-yyyy HH:mm:ss.SSS\")"
+    },
+    {
+      "name": "Sheet1",
+      "sheetId": "57b237e2-3675-4646-ba31-1d8758bc31e4",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "performed_by_user",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#FUserActions!performed_by_user"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "performed_by_user",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ],
+      "nextColumnId": 1
     }
   ],
   "advancedSchedulingInUse": false,
