@@ -20,6 +20,17 @@
         "uuid": "65b59956-d8bb-4749-8b08-a2f2510752d3"
       },
       "columnStyles": []
+    },
+    {
+      "name": "Clickstream_Data",
+      "sheetId": "73aee05b-02b2-45e0-ae4a-66d739773471",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Tutorial Click Path/Clickstream Data.upl",
+        "uuid": "0a797519-5650-4202-8892-b1e2229264af"
+      },
+      "columnStyles": []
     }
   ],
   "advancedSchedulingInUse": false,
