@@ -9,7 +9,19 @@
   "properties": {},
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
-  "sheets": [],
+  "sheets": [
+    {
+      "name": "Customer_Profile",
+      "sheetId": "e2cde918-24ad-43d7-9016-94dc4d0ff895",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/Users/admin/Applications/Tutorial Click Path/Customer Profile.upl",
+        "uuid": "65b59956-d8bb-4749-8b08-a2f2510752d3"
+      },
+      "columnStyles": []
+    }
+  ],
   "advancedSchedulingInUse": false,
   "errorHandlingMode": "IGNORE"
 }
