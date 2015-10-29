@@ -1,12 +1,14 @@
 {
   "file": {
     "uuid": "ca8a3a1d-1ff2-4c82-ba68-7ab7bbbee2ce",
-    "path": "/Users/admin/.unsaved-configurations/unsaved 2015-10-29 19:57:10.wbk",
-    "name": "unsaved 2015-10-29 19:57:10"
+    "path": "/Users/admin/Applications/Tutorial Click Path/DataPrep.wbk",
+    "description": "",
+    "name": "DataPrep"
   },
   "pullType": "MANUALLY",
   "minKeepCount": 1,
   "properties": {},
+  "hadoopProperties": "",
   "notificationAddresses": "",
   "notificationSuccessAddresses": "",
   "sheets": [
@@ -85,6 +87,6 @@
       "columnStyles": []
     }
   ],
-  "advancedSchedulingInUse": false,
+  "advancedSchedulingInUse": true,
   "errorHandlingMode": "IGNORE"
 }
