@@ -37,6 +37,18 @@
       "sheetId": "08e20f0a-eea1-462c-bc4c-b884c0a87c97",
       "sheetType": "das.internal.JoinedSheetType",
       "keep": true,
+      "filterSourceSheet": "Joined",
+      "filterTargetSheet": "Joined",
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "Clickstream_Data.status",
+          "filterExpression": "EQUALS",
+          "value": "200",
+          "valueStatic": true,
+          "type": "CONSTANT"
+        }
+      ],
       "sheetDefinition": {
         "_joinCategory": "TWO_MEMBER_JOIN",
         "_joinPairs": [
